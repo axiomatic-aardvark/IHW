@@ -21,9 +21,9 @@
         li {
             z-index: 10;
 
-            & a:hover {
+            &:hover a{
                 cursor: pointer;
-                color: white;
+                color: white !important;
             }
 
             a {
@@ -54,7 +54,7 @@
                 min-width: 90px;
             }
 
-            li {
+            li span {
                 color: #f4f8fc;
             }
 

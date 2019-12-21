@@ -5,6 +5,7 @@ import Header from "./Header";
 export default function Home() {
   return (
     <section id="home">
+      <div className="veil"></div>
       <Header />
     </section>
   );
