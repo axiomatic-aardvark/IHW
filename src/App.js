@@ -1,4 +1,5 @@
 import React from "react";
+import TrackVisibility from "react-on-screen";
 import Home from "./components/Home";
 import Gallery from "./components/Gallery";
 import MoreInfo from "./components/MoreInfo";
@@ -8,7 +9,9 @@ function App() {
   return (
     <div className="app">
       <Home />
-      <Gallery />
+      <TrackVisibility once partialVisibility={true} offset={-300}>
+        <Gallery />
+      </TrackVisibility>
       <MoreInfo />
       <ContactMe />
     </div>

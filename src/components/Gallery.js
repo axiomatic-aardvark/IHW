@@ -8,11 +8,12 @@ import ls1 from "../images/gallery/ls1.jpg";
 import ls2 from "../images/gallery/ls2.jpg";
 import ls3 from "../images/gallery/ls3.jpg";
 
+export default function Gallery({ isVisible }) {
+  const animation = isVisible ? "fade-in visible" : "invisible";
 
-export default function Gallery() {
   return (
     <section id="gallery">
-      <Slider {...sliderParams} className="slider">
+      <Slider {...sliderParams} className={`slider ${animation}`}>
         <img src={ls} alt="placeholder"></img>
         <img src={ls1} alt="placeholder"></img>
         <img src={ls2} alt="placeholder"></img>
