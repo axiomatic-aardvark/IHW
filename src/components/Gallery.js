@@ -3,10 +3,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import sliderParams from "../helpers/sliderParams";
-import ls from "../images/gallery/ls.jpg";
-import ls1 from "../images/gallery/ls1.jpg";
-import ls2 from "../images/gallery/ls2.jpg";
-import ls3 from "../images/gallery/ls3.jpg";
+import bird from "../images/gallery/pictures/bird.JPG";
+import bird1 from "../images/gallery/pictures/bird1.JPG";
+import autoportrait1 from "../images/gallery/pictures/autoportrait1.JPG";
 
 export default function Gallery({ isVisible }) {
   const animation = isVisible ? "fade-in visible" : "invisible";
@@ -14,10 +13,11 @@ export default function Gallery({ isVisible }) {
   return (
     <section id="gallery">
       <Slider {...sliderParams} className={`slider ${animation}`}>
-        <img src={ls} alt="placeholder"></img>
-        <img src={ls1} alt="placeholder"></img>
-        <img src={ls2} alt="placeholder"></img>
-        <img src={ls3} alt="placeholder"></img>
+        <div className="group bird">
+          <img src={bird} alt="bird"></img>
+          <img src={bird1} alt="bird1"></img>
+        </div>
+        <img src={autoportrait1} alt="autoportrait1"></img>
       </Slider>
     </section>
   );
