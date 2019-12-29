@@ -49,6 +49,113 @@
             &.bird {
                 margin-top: 10vh;
             }
+
+            &.girl {
+                margin-top: 10vh;
+            }
+
+            &.roses {
+                margin-top: 10vh;
+            }
+
+            &.oprah {
+
+                img {
+                    max-width: 40%;
+                }
+            }
+
+            &.thinking-girl {
+
+                margin-top: 5vh;
+
+                img {
+                    &:first-of-type {
+                        max-width: 35%;
+                    }
+
+                    &:nth-child(2) {
+                        max-width: 40%;
+                    }
+                }
+            }
+
+            &.glasses {
+
+                margin-top: 5vh;
+
+                img {
+                    &:first-of-type {
+                        max-width: 30%;
+                    }
+
+                    &:nth-child(2) {
+                        max-width: 40%;
+                    }
+                }
+            }
+
+            &.elcho {
+
+                margin-top: 5vh;
+
+                img {
+                    &:first-of-type {
+                        max-width: 30%;
+                    }
+
+                    &:nth-child(2) {
+                        max-width: 40%;
+                    }
+                }
+            }
+
+
+            &.madara {
+
+                margin-top: 5vh;
+
+                img {
+                    &:first-of-type {
+                        max-width: 28%;
+                    }
+
+                    &:nth-child(2) {
+                        max-width: 42%;
+                    }
+                }
+            }
+
+            &.girl-apple {
+
+                // margin-top: 2.5vh;
+
+                img {
+                    &:first-of-type {
+                        max-width: 20%;
+                    }
+
+                    &:nth-child(2) {
+                        max-width: 42%;
+                    }
+                }
+            }
+
+
+
+
+            &.goblet {
+                margin-top: 10vh;
+
+                img {
+                    max-width: 45%;
+
+                    &:nth-child(2) {
+                        max-width: 46%;
+                    }
+
+                }
+            }
         }
     }
 
