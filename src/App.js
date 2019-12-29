@@ -9,7 +9,12 @@ function App() {
   return (
     <div className="app">
       <Home />
-      <TrackVisibility once partialVisibility={true} offset={-300}>
+      <TrackVisibility
+        once
+        partialVisibility={true}
+        offset={-300}
+        className="track-visibility"
+      >
         <Gallery />
       </TrackVisibility>
       <MoreInfo />

@@ -34,8 +34,8 @@
 
 // Fade in
 .fade-in {
-    -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.25s both;
-    animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.25s both;
+    -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000)  both;
+    animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 @-webkit-keyframes fade-in {
@@ -60,8 +60,8 @@
 
 // Flicker in
 .flicker-in-1 {
-    -webkit-animation: flicker-in-1 2s linear 0.5s both;
-    animation: flicker-in-1 2s linear 0.5s both;
+    -webkit-animation: flicker-in-1 2s linear 0.75s both;
+    animation: flicker-in-1 2s linear 0.75s both;
 }
 
 @-webkit-keyframes flicker-in-1 {
