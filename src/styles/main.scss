@@ -3,6 +3,7 @@
 @import "gallery.scss";
 @import "more-info.scss";
 @import "contact-me.scss";
+@import "animations.scss";
 
 body {
     padding: 0;
@@ -12,8 +13,8 @@ body {
 
         .veil {
             position: absolute;
-            width: 100%;
-            height: 100%;
+            width: 100vw;
+            height: 100vh;
             background-color: black;
             opacity: 0.75;
         }

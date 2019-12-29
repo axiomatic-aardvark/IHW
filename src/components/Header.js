@@ -3,7 +3,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 
 export default function Header() {
   return (
-    <header id="header">
+    <header id="header" className="slide-in-top">
       <ul>
         <li>
           <a href="/" draggable="false">
