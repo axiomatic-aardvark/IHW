@@ -5,7 +5,8 @@ import Slider from "react-slick";
 import sliderParams from "../helpers/sliderParams";
 import bird from "../images/gallery/pictures/bird.JPG";
 import bird1 from "../images/gallery/pictures/bird1.JPG";
-import autoportrait1 from "../images/gallery/pictures/autoportrait-final.jpg";
+import autoportrait from "../images/gallery/pictures/autoportrait-final.jpg";
+import autoportrait1 from "../images/gallery/pictures/autoportrait1.jpg";
 import eatenApple from "../images/gallery/pictures/eaten-apple.jpg";
 import eatenApple1 from "../images/gallery/pictures/eaten-apple1.JPG";
 import girl from "../images/gallery/pictures/girl.png";
@@ -38,6 +39,8 @@ import nakedGirl from "../images/gallery/pictures/naked-girl-final.jpg";
 import nakedGirl1 from "../images/gallery/pictures/naked-girl1.JPG";
 import eyeWithHand from "../images/gallery/pictures/eye-with-hand.jpg";
 import eyeWithHand1 from "../images/gallery/pictures/eye-with-hand1.jpg";
+import stones from "../images/gallery/pictures/stones.jpg";
+import stones1 from "../images/gallery/pictures/stones1.jpg";
 
 export default function Gallery({ isVisible }) {
   const animation = isVisible ? "fade-in visible" : "invisible";
@@ -110,11 +113,10 @@ export default function Gallery({ isVisible }) {
         {genPicture("angel", angel, angel1)}
         {genPicture("naked-girl", nakedGirl, nakedGirl1)}
         {genPicture("eye-with-hand", eyeWithHand, eyeWithHand1)}
+        {genPicture("autoportrait", autoportrait, autoportrait1)}
+        {genPicture("stones", stones, stones1)}
 
 
-        <div className="group autoportrait">
-          <img src={autoportrait1} alt="autoportrait1"></img>
-        </div>
         <div className="group eaten-apple">
           <img src={eatenApple} alt="eaten-apple"></img>
           <img src={eatenApple1} alt="eaten-apple1"></img>
