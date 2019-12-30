@@ -3,7 +3,6 @@ import TrackVisibility from "react-on-screen";
 import Home from "./components/Home";
 import Gallery from "./components/Gallery";
 import MoreInfo from "./components/MoreInfo";
-import ContactMe from "./components/ContactMe";
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
         <Gallery />
       </TrackVisibility>
       <MoreInfo />
-      <ContactMe />
     </div>
   );
 }
