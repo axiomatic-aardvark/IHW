@@ -356,8 +356,53 @@
                 }
             }
 
+            &.woman-and-man {
+                margin-top: 5vh;
+
+                img {
+                    &:first-of-type {
+
+                        max-width: 48%;
+                    }
+
+                    &:nth-child(2) {
+                        max-width: 39%;
+                    }
+                }
+            }
+
+            &.three-horses {
+                margin-top: 7vh;
+
+
+                img {
+                    &:first-of-type {
+                        margin-right: 5vw;
+                        margin-left: -5vw;
+                        max-width: 60%;
+                    }
+
+                    &:nth-child(2) {
+                        max-width: 47%;
+                    }
+                }
+            }
+
             &.hope-inverted {
                 margin-top: 5vh;
+            }
+
+            &.lady {
+                margin-top: 5vh;
+
+                img {
+                    &:first-of-type {
+
+                        max-width: 65%;
+                    }
+
+
+                }
             }
         }
     }

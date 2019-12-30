@@ -53,6 +53,11 @@ import splitFace from "../images/gallery/pictures/split-face.jpg";
 import splitFace1 from "../images/gallery/pictures/split-face1.jpg";
 import hope from "../images/gallery/pictures/hope.jpg";
 import hopeInverted from "../images/gallery/pictures/hope-inverted.jpg";
+import womanAndMan from "../images/gallery/pictures/woman-and-man.jpg";
+import womanAndMan1 from "../images/gallery/pictures/woman-and-man1.jpg";
+import threeHorses from "../images/gallery/pictures/three-horses.jpg";
+import threeHorses1 from "../images/gallery/pictures/three-horses1.jpg";
+import lady from "../images/gallery/pictures/lady.jpg";
 
 export default function Gallery({ isVisible }) {
   const animation = isVisible ? "fade-in visible" : "invisible";
@@ -136,11 +141,15 @@ export default function Gallery({ isVisible }) {
         {genPicture("split-face", splitFace, splitFace1)}
         <div className="group hope">
           <img src={hope} alt="hope"></img>
-          
         </div>
         <div className="group hope-inverted">
           <img src={hopeInverted} alt="hope-inverted"></img>
-          
+        </div>
+        {genPicture("woman-and-man", womanAndMan, womanAndMan1)}
+        {genPicture("three-horses", threeHorses, threeHorses1)}
+
+        <div className="group lady">
+          <img src={lady} alt="lady"></img>
         </div>
         <div className="group eaten-apple">
           <img src={eatenApple} alt="eaten-apple"></img>
