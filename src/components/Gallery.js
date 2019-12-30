@@ -41,6 +41,8 @@ import eyeWithHand from "../images/gallery/pictures/eye-with-hand.jpg";
 import eyeWithHand1 from "../images/gallery/pictures/eye-with-hand1.jpg";
 import stones from "../images/gallery/pictures/stones.jpg";
 import stones1 from "../images/gallery/pictures/stones1.jpg";
+import violin from "../images/gallery/pictures/violin.jpg";
+import violin1 from "../images/gallery/pictures/violin1.jpg";
 
 export default function Gallery({ isVisible }) {
   const animation = isVisible ? "fade-in visible" : "invisible";
@@ -105,17 +107,16 @@ export default function Gallery({ isVisible }) {
           <img src={oldHands} alt="old-hands"></img>
           <img src={oldHands1} alt="old-hands1"></img>
         </div>
-        {/* <div className="group samba">
-          <img src={samba} alt="samba"></img>
-          <img src={samba1} alt="samba1"></img>
-        </div> */}
+
         {genPicture("samba", samba, samba1)}
         {genPicture("angel", angel, angel1)}
         {genPicture("naked-girl", nakedGirl, nakedGirl1)}
         {genPicture("eye-with-hand", eyeWithHand, eyeWithHand1)}
         {genPicture("autoportrait", autoportrait, autoportrait1)}
         {genPicture("stones", stones, stones1)}
-
+        <div className="group violin">
+          <img src={violin} alt="violin"></img>
+        </div>
 
         <div className="group eaten-apple">
           <img src={eatenApple} alt="eaten-apple"></img>
