@@ -42,7 +42,11 @@ import eyeWithHand1 from "../images/gallery/pictures/eye-with-hand1.jpg";
 import stones from "../images/gallery/pictures/stones.jpg";
 import stones1 from "../images/gallery/pictures/stones1.jpg";
 import violin from "../images/gallery/pictures/violin.jpg";
-import violin1 from "../images/gallery/pictures/violin1.jpg";
+import horse from "../images/gallery/pictures/horse.jpg";
+import horse1 from "../images/gallery/pictures/horse1.jpg";
+import perspective from "../images/gallery/pictures/perspective.jpg";
+import perspective1 from "../images/gallery/pictures/perspective1.jpg";
+import embrace from "../images/gallery/pictures/embrace.jpg";
 
 export default function Gallery({ isVisible }) {
   const animation = isVisible ? "fade-in visible" : "invisible";
@@ -116,6 +120,11 @@ export default function Gallery({ isVisible }) {
         {genPicture("stones", stones, stones1)}
         <div className="group violin">
           <img src={violin} alt="violin"></img>
+        </div>
+        {genPicture("horse", horse, horse1)}
+        {genPicture("perspective", perspective, perspective1)}
+        <div className="group embrace">
+          <img src={embrace} alt="embrace"></img>
         </div>
 
         <div className="group eaten-apple">
