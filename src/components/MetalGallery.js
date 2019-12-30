@@ -7,8 +7,8 @@ import bird from "../images/gallery/pictures/bird.JPG";
 import bird1 from "../images/gallery/pictures/bird1.JPG";
 import autoportrait from "../images/gallery/pictures/autoportrait-final.jpg";
 import autoportrait1 from "../images/gallery/pictures/autoportrait1.jpg";
-import eatenApple from "../images/gallery/pictures/eaten-apple.jpg";
-import eatenApple1 from "../images/gallery/pictures/eaten-apple1.JPG";
+// import eatenApple from "../images/gallery/pictures/eaten-apple.jpg";
+// import eatenApple1 from "../images/gallery/pictures/eaten-apple1.JPG";
 import girl from "../images/gallery/pictures/girl.png";
 import girl1 from "../images/gallery/pictures/girl1.png";
 import roses from "../images/gallery/pictures/roses.png";
@@ -59,8 +59,10 @@ import threeHorses from "../images/gallery/pictures/three-horses.jpg";
 import threeHorses1 from "../images/gallery/pictures/three-horses1.jpg";
 import lady from "../images/gallery/pictures/lady.jpg";
 import littleAngel from "../images/gallery/pictures/little-angel.JPG";
+import hug from "../images/gallery/pictures/hug.jpg";
+import hug1 from "../images/gallery/pictures/hug1.jpg";
 
-export default function Gallery({ isVisible }) {
+export default ({ isVisible }) => {
   const animation = isVisible ? "fade-in visible" : "invisible";
 
   const genPicture = (strName, name, details) => {
@@ -155,10 +157,12 @@ export default function Gallery({ isVisible }) {
         <div className="group little-angel">
           <img src={littleAngel} alt="little-angel"></img>
         </div>
-        <div className="group eaten-apple">
+        {genPicture("hug", hug, hug1)}
+
+        {/* <div className="group eaten-apple">
           <img src={eatenApple} alt="eaten-apple"></img>
           <img src={eatenApple1} alt="eaten-apple1"></img>
-        </div>
+        </div> */}
       </Slider>
     </section>
   );

@@ -412,6 +412,17 @@
                     }
                 }
             }
+
+            &.hug {
+                margin-top: 2vh;
+
+                img {
+
+                    &:nth-child(2) {
+                        max-width: 43%;
+                    }
+                }
+            }
         }
     }
 }

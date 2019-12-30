@@ -1,7 +1,7 @@
 import React from "react";
 import TrackVisibility from "react-on-screen";
 import Home from "./components/Home";
-import Gallery from "./components/Gallery";
+import MetalGallery from "./components/MetalGallery";
 import MoreInfo from "./components/MoreInfo";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
         offset={-300}
         className="track-visibility"
       >
-        <Gallery />
+        <MetalGallery />
       </TrackVisibility>
       <MoreInfo />
     </div>
