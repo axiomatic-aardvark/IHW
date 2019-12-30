@@ -5,7 +5,7 @@ import Slider from "react-slick";
 import sliderParams from "../helpers/sliderParams";
 import bird from "../images/gallery/pictures/bird.JPG";
 import bird1 from "../images/gallery/pictures/bird1.JPG";
-import autoportrait1 from "../images/gallery/pictures/autoportrait1.JPG";
+import autoportrait1 from "../images/gallery/pictures/autoportrait-final.jpg";
 import eatenApple from "../images/gallery/pictures/eaten-apple.jpg";
 import eatenApple1 from "../images/gallery/pictures/eaten-apple1.JPG";
 import girl from "../images/gallery/pictures/girl.png";
@@ -27,10 +27,29 @@ import madara1 from "../images/gallery/pictures/madara1.JPG";
 import girlApple from "../images/gallery/pictures/girl-apple.jpg";
 import girlApple1 from "../images/gallery/pictures/girl-apple1.JPG";
 import oldWoman from "../images/gallery/pictures/old-woman.jpg";
-import oldWoman1 from "../images/gallery/pictures/old-woman1.JPG";
+import oldWoman1 from "../images/gallery/pictures/old-woman1-final.JPG";
+import oldHands from "../images/gallery/pictures/old-hands-final.jpg";
+import oldHands1 from "../images/gallery/pictures/old-hands1-final.JPG";
+import samba from "../images/gallery/pictures/samba.jpg";
+import samba1 from "../images/gallery/pictures/samba1.JPG";
+import angel from "../images/gallery/pictures/angel.jpg";
+import angel1 from "../images/gallery/pictures/angel1.jpg";
+import nakedGirl from "../images/gallery/pictures/naked-girl-final.jpg";
+import nakedGirl1 from "../images/gallery/pictures/naked-girl1.JPG";
+import eyeWithHand from "../images/gallery/pictures/eye-with-hand.jpg";
+import eyeWithHand1 from "../images/gallery/pictures/eye-with-hand1.jpg";
 
 export default function Gallery({ isVisible }) {
   const animation = isVisible ? "fade-in visible" : "invisible";
+
+  const genPicture = (strName, name, details) => {
+    return (
+      <div className={`group ${strName}`}>
+        <img src={name} alt={name}></img>
+        <img src={details} alt={details}></img>
+      </div>
+    );
+  };
 
   return (
     <section id="gallery">
@@ -79,7 +98,23 @@ export default function Gallery({ isVisible }) {
           <img src={oldWoman} alt="old-woman"></img>
           <img src={oldWoman1} alt="old-woman"></img>
         </div>
-        <img src={autoportrait1} alt="autoportrait1"></img>
+        <div className="group old-hands">
+          <img src={oldHands} alt="old-hands"></img>
+          <img src={oldHands1} alt="old-hands1"></img>
+        </div>
+        {/* <div className="group samba">
+          <img src={samba} alt="samba"></img>
+          <img src={samba1} alt="samba1"></img>
+        </div> */}
+        {genPicture("samba", samba, samba1)}
+        {genPicture("angel", angel, angel1)}
+        {genPicture("naked-girl", nakedGirl, nakedGirl1)}
+        {genPicture("eye-with-hand", eyeWithHand, eyeWithHand1)}
+
+
+        <div className="group autoportrait">
+          <img src={autoportrait1} alt="autoportrait1"></img>
+        </div>
         <div className="group eaten-apple">
           <img src={eatenApple} alt="eaten-apple"></img>
           <img src={eatenApple1} alt="eaten-apple1"></img>

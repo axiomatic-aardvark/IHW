@@ -95,6 +95,21 @@
                 }
             }
 
+            &.glasses {
+
+                margin-top: 5vh;
+
+                img {
+                    &:first-of-type {
+                        max-width: 30%;
+                    }
+
+                    &:nth-child(2) {
+                        max-width: 40%;
+                    }
+                }
+            }
+
             &.elcho {
 
                 margin-top: 5vh;
@@ -141,7 +156,54 @@
                 }
             }
 
+            &.old-woman {
 
+                margin-top: 1vh;
+
+                img {
+
+
+                    &:nth-child(2) {
+                        max-width: 40%;
+                    }
+                }
+            }
+
+            &.old-hands {
+
+                margin-top: 20vh;
+
+                img {
+
+                    max-width: 50%;
+
+                    &:first-of-type {
+                        max-width: 48%;
+                        margin-right: 5vw;
+                    }
+
+                    &:nth-child(2) {
+                        max-width: 54%;
+                    }
+                }
+            }
+
+            &.samba {
+                margin-top: 13vh;
+
+                img {
+
+                    &:first-of-type {
+                        max-width: 50%;
+                        margin-right: 2.5vw;
+                    }
+
+                    &:nth-child(2) {
+                        max-width: 57%;
+                    }
+
+                }
+            }
 
 
             &.goblet {
@@ -155,6 +217,52 @@
                     }
 
                 }
+            }
+
+            &.autoportrait {
+                margin-top: 2.5vh;
+
+                img {
+                    max-width: 33%;
+
+
+
+                }
+            }
+
+            &.angel {
+
+                img {
+                    max-width: 32%;
+                }
+            }
+
+            &.naked-girl {
+                margin-top: 12vh;
+
+                img {
+                    max-width: 46%;
+
+                    &:first-of-type {
+                        margin-left: -4vw;
+                        margin-right: 5vw;
+                        max-width: 56%;
+
+                    }
+
+                    &:nth-child(2) {
+                        max-width: 50%;
+                    }
+                }
+            }
+
+            &.eye-with-hand {
+                margin-top: 5vh;
+
+                img {
+                    max-width: 38%;
+                }
+
             }
         }
     }
