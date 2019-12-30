@@ -400,8 +400,16 @@
 
                         max-width: 65%;
                     }
+                }
+            }
 
+            &.little-angel {
 
+                img {
+                    &:first-of-type {
+
+                        max-width: 43%;
+                    }
                 }
             }
         }

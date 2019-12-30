@@ -58,6 +58,7 @@ import womanAndMan1 from "../images/gallery/pictures/woman-and-man1.jpg";
 import threeHorses from "../images/gallery/pictures/three-horses.jpg";
 import threeHorses1 from "../images/gallery/pictures/three-horses1.jpg";
 import lady from "../images/gallery/pictures/lady.jpg";
+import littleAngel from "../images/gallery/pictures/little-angel.JPG";
 
 export default function Gallery({ isVisible }) {
   const animation = isVisible ? "fade-in visible" : "invisible";
@@ -150,6 +151,9 @@ export default function Gallery({ isVisible }) {
 
         <div className="group lady">
           <img src={lady} alt="lady"></img>
+        </div>
+        <div className="group little-angel">
+          <img src={littleAngel} alt="little-angel"></img>
         </div>
         <div className="group eaten-apple">
           <img src={eatenApple} alt="eaten-apple"></img>
