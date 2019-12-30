@@ -165,6 +165,7 @@
 
                     &:first-of-type {
                         max-width: 48%;
+                        margin-left: -4vw;
                         margin-right: 5vw;
                     }
 
@@ -179,6 +180,8 @@
 
                 img {
                     &:first-of-type {
+                        margin-left: -4vw;
+
                         max-width: 50%;
                         margin-right: 2.5vw;
                     }
@@ -308,6 +311,53 @@
                 img {
                     max-width: 19%;
                 }
+            }
+
+            &.two-faces {
+                margin-top: 2vh;
+
+                img {
+                    &:first-of-type {
+
+                        max-width: 28%;
+                    }
+
+                    &:nth-child(2) {
+                        max-width: 35%;
+                    }
+                }
+            }
+
+            &.split-face {
+                margin-top: 12vh;
+
+                img {
+                    &:first-of-type {
+
+                        max-width: 48%;
+                    }
+
+                    &:nth-child(2) {
+                        max-width: 37%;
+                    }
+                }
+            }
+
+            &.hope,
+            &.hope-inverted {
+
+                img {
+                    &:first-of-type {
+
+                        max-width: 45%;
+                    }
+
+
+                }
+            }
+
+            &.hope-inverted {
+                margin-top: 5vh;
             }
         }
     }

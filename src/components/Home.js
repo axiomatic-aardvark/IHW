@@ -9,7 +9,7 @@ export default function Home() {
       <div className="veil"></div>
       <Header />
       <div className="welcome flicker-in-1">
-        <span>Uniquely Dazzling</span>
+        <span>Ivohristov.art</span>
         <img src={underline} alt="white-underline"></img>
       </div>
     </section>

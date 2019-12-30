@@ -17,12 +17,7 @@ export default function Header() {
         </li>
         <li>
           <AnchorLink href="#more-info" draggable="false">
-            <span>More Info</span>
-          </AnchorLink>
-        </li>
-        <li>
-          <AnchorLink href="#more-info" draggable="false">
-            <span>Contact Me</span>
+            <span>About Ivo</span>
           </AnchorLink>
         </li>
       </ul>
