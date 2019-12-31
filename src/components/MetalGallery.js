@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import sliderParams from "../helpers/sliderParams";
 import genPicture from "../helpers/genPicture";
+import genOnePicture from "../helpers/genOnePicture";
 import bird from "../images/gallery/metalPictures/bird.JPG";
 import bird1 from "../images/gallery/metalPictures/bird1.JPG";
 import autoportrait from "../images/gallery/metalPictures/autoportrait-final.jpg";
@@ -20,7 +21,7 @@ import glasses from "../images/gallery/metalPictures/glasses-final.jpg";
 import glasses1 from "../images/gallery/metalPictures/glasses1.JPG";
 import thinkingGirl from "../images/gallery/metalPictures/thinking-girl-final.jpg";
 import thinkingGirl1 from "../images/gallery/metalPictures/thinking-girl1.JPG";
-import elcho from "../images/gallery/metalPictures/elcho-final.jpg";
+import elchoMetal from "../images/gallery/metalPictures/elcho-final.jpg";
 import elcho1 from "../images/gallery/metalPictures/elcho.JPG";
 import madara from "../images/gallery/metalPictures/madara.jpg";
 import madara1 from "../images/gallery/metalPictures/madara1.JPG";
@@ -33,14 +34,12 @@ import oldHands1 from "../images/gallery/metalPictures/old-hands1-final.JPG";
 import samba from "../images/gallery/metalPictures/samba.jpg";
 import samba1 from "../images/gallery/metalPictures/samba1.JPG";
 import angel from "../images/gallery/metalPictures/angel.jpg";
-import angel1 from "../images/gallery/metalPictures/angel1.jpg";
 import nakedGirl from "../images/gallery/metalPictures/naked-girl-final.jpg";
 import nakedGirl1 from "../images/gallery/metalPictures/naked-girl1.JPG";
 import eyeWithHand from "../images/gallery/metalPictures/eye-with-hand.jpg";
-import eyeWithHand1 from "../images/gallery/metalPictures/eye-with-hand1.jpg";
 import stones from "../images/gallery/metalPictures/stones.jpg";
 import stones1 from "../images/gallery/metalPictures/stones1.jpg";
-import violin from "../images/gallery/metalPictures/violin.jpg";
+import violinMetal from "../images/gallery/metalPictures/violin.jpg";
 import horse from "../images/gallery/metalPictures/horse.jpg";
 import horse1 from "../images/gallery/metalPictures/horse1.jpg";
 import perspective from "../images/gallery/metalPictures/perspective.jpg";
@@ -95,9 +94,9 @@ export default ({ isVisible }) => {
           <img src={thinkingGirl} alt="thinking-girl"></img>
           <img src={thinkingGirl1} alt="thinking-girl"></img>
         </div>
-        <div className="group elcho">
-          <img src={elcho} alt="elcho"></img>
-          <img src={elcho1} alt="elcho"></img>
+        <div className="group elchoMetal">
+          <img src={elchoMetal} alt="elchoMetal"></img>
+          <img src={elcho1} alt="elchoMetal"></img>
         </div>
         <div className="group madara">
           <img src={madara} alt="madara"></img>
@@ -117,13 +116,13 @@ export default ({ isVisible }) => {
         </div>
 
         {genPicture("samba", samba, samba1)}
-        {genPicture("angel", angel, angel1)}
+        {genOnePicture("angel", angel)}
         {genPicture("naked-girl", nakedGirl, nakedGirl1)}
-        {genPicture("eye-with-hand", eyeWithHand, eyeWithHand1)}
+        {genOnePicture("eye-with-hand", eyeWithHand)}
         {genPicture("autoportrait", autoportrait, autoportrait1)}
         {genPicture("stones", stones, stones1)}
-        <div className="group violin">
-          <img src={violin} alt="violin"></img>
+        <div className="group violinMetal">
+          <img src={violinMetal} alt="violinMetal"></img>
         </div>
         {genPicture("horse", horse, horse1)}
         {genPicture("perspective", perspective, perspective1)}

@@ -24,7 +24,6 @@ div.square-apple {
 
     img {
         &:first-of-type {
-
             max-width: 48% !important;
         }
 
@@ -67,5 +66,12 @@ div.frozen-apple {
 
     img {
         max-width: 10% !important;
+    }
+}
+
+.elcho {
+   
+    img {
+        max-width: 33% !important;
     }
 }

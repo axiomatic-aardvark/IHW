@@ -23,6 +23,8 @@ import frozenApple from "../images/gallery/paintingPictures/frozen-apple.JPG";
 import pear from "../images/gallery/paintingPictures/pear.JPG";
 import lips from "../images/gallery/paintingPictures/lips.JPG";
 import violin from "../images/gallery/paintingPictures/violin.JPG";
+import elcho from "../images/gallery/paintingPictures/elcho.jpg";
+
 
 export default ({ isVisible }) => {
   const animation = isVisible ? "fade-in visible" : "invisible";
@@ -49,6 +51,7 @@ export default ({ isVisible }) => {
         {genOnePicture("pear", pear)}
         {genOnePicture("lips", lips)}
         {genOnePicture("violin", violin)}
+        {genOnePicture("elcho", elcho)}
       </Slider>
     </section>
   );
