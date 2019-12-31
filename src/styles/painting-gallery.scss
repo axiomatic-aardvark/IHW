@@ -1,3 +1,71 @@
 .eaten-apple {
     margin-bottom: 5vh !important;
 }
+
+div.colorful-apple {
+    margin-bottom: -2.5vh !important;
+
+    img {
+        &:first-of-type {
+            margin-right: 6vw !important;
+            max-width: 40% !important;
+        }
+
+        &:nth-child(2) {
+            max-width: 40% !important;
+        }
+    }
+}
+
+div.red-apple,
+div.many-apples,
+div.square-apple {
+    margin-top: 2.5vh !important;
+
+    img {
+        &:first-of-type {
+
+            max-width: 48% !important;
+        }
+
+    }
+}
+
+div.red-apples,
+div.tomato-apple,
+div.darkblue-apple,
+div.chess-apples,
+div.half-apples,
+div.bitten-apple,
+div.blue-and-green,
+div.frozen-apple {
+    margin-top: 7vh !important;
+
+    img {
+        &:first-of-type {
+
+            max-width: 55% !important;
+        }
+
+    }
+}
+
+.pear {
+    margin-top: 2.5vh !important;
+
+
+}
+
+.lips {
+    margin-top: -1vh !important;
+
+
+}
+
+.violin {
+    margin-top: -1vh !important;
+
+    img {
+        max-width: 10% !important;
+    }
+}
