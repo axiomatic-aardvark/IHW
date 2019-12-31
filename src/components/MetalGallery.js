@@ -46,6 +46,7 @@ import perspective1 from "../images/gallery/metalPictures/perspective1.jpg";
 import embrace from "../images/gallery/metalPictures/embrace.jpg";
 import twoFaces from "../images/gallery/metalPictures/two-faces.jpg";
 import splitFace from "../images/gallery/metalPictures/split-face.jpg";
+import splitFace1 from "../images/gallery/metalPictures/split-face1.JPG";
 import hope from "../images/gallery/metalPictures/hope.jpg";
 import hopeInverted from "../images/gallery/metalPictures/hope-inverted.jpg";
 import womanAndMan from "../images/gallery/metalPictures/woman-and-man.jpg";
@@ -131,7 +132,7 @@ export default ({ isVisible }) => {
           <img src={embrace} alt="embrace"></img>
         </div>
         {genOnePicture("two-faces", twoFaces)}
-        {genOnePicture("split-face", splitFace)}
+        {genPicture("split-face", splitFace, splitFace1)}
         <div className="group hope">
           <img src={hope} alt="hope"></img>
         </div>
