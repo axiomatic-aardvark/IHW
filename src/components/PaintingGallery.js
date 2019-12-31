@@ -24,7 +24,17 @@ import pear from "../images/gallery/paintingPictures/pear.JPG";
 import lips from "../images/gallery/paintingPictures/lips.JPG";
 import violin from "../images/gallery/paintingPictures/violin.JPG";
 import elcho from "../images/gallery/paintingPictures/elcho.jpg";
-
+import bun from "../images/gallery/paintingPictures/bun.jpg";
+import nakedGirlPainting from "../images/gallery/paintingPictures/naked-girl.jpg";
+import underwear from "../images/gallery/paintingPictures/underwear.jpg";
+import nakedGirlSkirt from "../images/gallery/paintingPictures/naked-girl-skirt.jpg";
+import blackGirlBreast from "../images/gallery/paintingPictures/black-girl-breast.jpg";
+import nakedGirlBlanket from "../images/gallery/paintingPictures/naked-girl-blanket.jpg";
+import sleeping from "../images/gallery/paintingPictures/sleeping.jpg";
+import stretch from "../images/gallery/paintingPictures/stretch.jpg";
+import girlHorse from "../images/gallery/paintingPictures/girl-horse.jpg";
+import piano from "../images/gallery/paintingPictures/piano.jpg";
+import darkHorse from "../images/gallery/paintingPictures/dark-horse.jpg";
 
 export default ({ isVisible }) => {
   const animation = isVisible ? "fade-in visible" : "invisible";
@@ -52,6 +62,17 @@ export default ({ isVisible }) => {
         {genOnePicture("lips", lips)}
         {genOnePicture("violin", violin)}
         {genOnePicture("elcho", elcho)}
+        {genOnePicture("bun", bun)}
+        {genOnePicture("naked-girl-painting", nakedGirlPainting)}
+        {genOnePicture("underwear", underwear)}
+        {genOnePicture("naked-girl-skirt", nakedGirlSkirt)}
+        {genOnePicture("black-girl-breast", blackGirlBreast)}
+        {genOnePicture("naked-girl-blanket", nakedGirlBlanket)}
+        {genOnePicture("sleeping", sleeping)}
+        {genOnePicture("stretch", stretch)}
+        {genOnePicture("girl-horse", girlHorse)}
+        {genOnePicture("piano", piano)}
+        {genOnePicture("dark-horse", darkHorse)}
       </Slider>
     </section>
   );

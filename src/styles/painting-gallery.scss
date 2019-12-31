@@ -26,7 +26,6 @@ div.square-apple {
         &:first-of-type {
             max-width: 48% !important;
         }
-
     }
 }
 
@@ -37,28 +36,46 @@ div.chess-apples,
 div.half-apples,
 div.bitten-apple,
 div.blue-and-green,
-div.frozen-apple {
+div.frozen-apple,
+div.naked-girl-skirt,
+div.naked-girl-blanket,
+div.girl-horse,
+div.piano,
+div.dark-horse {
     margin-top: 7vh !important;
 
     img {
         &:first-of-type {
-
             max-width: 55% !important;
         }
-
     }
 }
 
+div.naked-girl-skirt {
+    margin-top: 12vh !important;
+}
+
+div.naked-girl-blanket {
+    margin-top: 0 !important;
+}
+
+div.dark-horse {
+    margin-top: 10vh !important;
+}
+
+
 .pear {
     margin-top: 2.5vh !important;
+}
 
-
+.black-girl-breast {
+    img {
+        max-width: 36%;
+    }
 }
 
 .lips {
     margin-top: -1vh !important;
-
-
 }
 
 .violin {
@@ -70,8 +87,21 @@ div.frozen-apple {
 }
 
 .elcho {
-   
     img {
         max-width: 33% !important;
+    }
+}
+
+.naked-girl-painting {
+    margin-top: -2vh;
+
+    img {
+        max-width: 33% !important;
+    }
+}
+
+.underwear {
+    img {
+        max-width: 16% !important;
     }
 }
