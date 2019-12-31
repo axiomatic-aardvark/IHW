@@ -56,6 +56,10 @@ import lady from "../images/gallery/metalPictures/lady.jpg";
 import littleAngel from "../images/gallery/metalPictures/little-angel.JPG";
 import hug from "../images/gallery/metalPictures/hug.jpg";
 import hug1 from "../images/gallery/metalPictures/hug1.jpg";
+import sharpTeethFish from "../images/gallery/metalPictures/sharp-teeth-fish.JPG";
+import nikulden from "../images/gallery/metalPictures/nikulden.JPG";
+import horseWithBaby from "../images/gallery/metalPictures/horse-with-baby.JPG";
+import inLove from "../images/gallery/metalPictures/in-love.JPG";
 
 export default ({ isVisible }) => {
   const animation = isVisible ? "fade-in visible" : "invisible";
@@ -144,6 +148,10 @@ export default ({ isVisible }) => {
           <img src={littleAngel} alt="little-angel"></img>
         </div>
         {genPicture("hug", hug, hug1)}
+        {genOnePicture("sharp-teeth-fish", sharpTeethFish)}
+        {genOnePicture("nikulden", nikulden)}
+        {genOnePicture("horse-with-baby", horseWithBaby)}
+        {genOnePicture("in-love", inLove)}
       </Slider>
     </section>
   );

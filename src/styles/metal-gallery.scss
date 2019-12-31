@@ -417,6 +417,30 @@
                     }
                 }
             }
+
+            &.sharp-teeth-fish,
+            &.nikulden,
+            &.horse-with-baby,
+            &.in-love {
+                margin-top: 15vh;
+
+                img {
+                    &:first-of-type {
+
+                        max-width: 50%;
+                    }
+                }
+            }
+
+            &.nikulden,
+            &.in-love {
+                img {
+                    &:first-of-type {
+
+                        max-width: 52.5%;
+                    }
+                }
+            }
         }
     }
 }
