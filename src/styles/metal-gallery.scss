@@ -14,9 +14,24 @@
                 display: flex;
                 flex-direction: row;
 
+                .one {
+                    &:hover {
+                        cursor: pointer;
+                        opacity: 0.3;
+                    }
+                }
+
                 img {
                     max-width: 35%;
                     margin: auto;
+
+                    &:nth-child(2) {
+
+                        &:hover {
+                            cursor: pointer;
+                            opacity: 0.3;
+                        }
+                    }
                 }
             }
         }
