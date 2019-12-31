@@ -43,6 +43,8 @@ import pink from "../images/gallery/paintingPictures/pink.JPG";
 import yinyang from "../images/gallery/paintingPictures/yinyang.jpg";
 import crying from "../images/gallery/paintingPictures/crying.JPG";
 import baby from "../images/gallery/paintingPictures/baby.JPG";
+import horo from "../images/gallery/paintingPictures/horo.JPG";
+import redWoman from "../images/gallery/paintingPictures/red-woman.jpg";
 
 export default ({ isVisible }) => {
   const animation = isVisible ? "fade-in visible" : "invisible";
@@ -80,7 +82,7 @@ export default ({ isVisible }) => {
         {genOnePicture("stretch", stretch)}
         {genOnePicture("girl-horse", girlHorse)}
         {genOnePicture("piano", piano)}
-        {genOnePicture("dark-horse", darkHorse)}
+        {genOnePicture("dardk-horse", darkHorse)}
         {genOnePicture("smoking-red", smokingRed)}
         {genOnePicture("cat", cat)}
         {genOnePicture("afro-girl", afroGirl)}
@@ -89,6 +91,8 @@ export default ({ isVisible }) => {
         {genOnePicture("yinyang", yinyang)}
         {genOnePicture("crying", crying)}
         {genOnePicture("baby", baby)}
+        {genOnePicture("horo", horo)}
+        {genOnePicture("red-woman", redWoman)}
       </Slider>
     </section>
   );

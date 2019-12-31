@@ -421,7 +421,8 @@
             &.sharp-teeth-fish,
             &.nikulden,
             &.horse-with-baby,
-            &.in-love {
+            &.in-love,
+            &.eyes {
                 margin-top: 15vh;
 
                 img {
@@ -438,6 +439,18 @@
                     &:first-of-type {
 
                         max-width: 52.5%;
+                    }
+                }
+            }
+
+            &.eyes {
+
+                padding-top: 3vh;
+
+                img {
+                    &:first-of-type {
+
+                        max-width: 65%;
                     }
                 }
             }

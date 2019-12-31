@@ -61,6 +61,7 @@ import sharpTeethFish from "../images/gallery/metalPictures/sharp-teeth-fish.JPG
 import nikulden from "../images/gallery/metalPictures/nikulden.JPG";
 import horseWithBaby from "../images/gallery/metalPictures/horse-with-baby.JPG";
 import inLove from "../images/gallery/metalPictures/in-love.JPG";
+import eyes from "../images/gallery/metalPictures/eyes.jpg";
 
 export default ({ isVisible }) => {
   const animation = isVisible ? "fade-in visible" : "invisible";
@@ -153,6 +154,7 @@ export default ({ isVisible }) => {
         {genOnePicture("nikulden", nikulden)}
         {genOnePicture("horse-with-baby", horseWithBaby)}
         {genOnePicture("in-love", inLove)}
+        {genOnePicture("eyes", eyes)}
       </Slider>
     </section>
   );
