@@ -17,8 +17,12 @@ export default function Home() {
       <div className="information">
         <p>
           Bringing scrap metal to life. Uniquely Dazzling! See more below...
-          <AnchorLink href="#gallery" draggable="false">
-            <img src={downIcon} alt="down-icon" className="shake-vertical"></img>
+          <AnchorLink href="#metal-gallery" draggable="false">
+            <img
+              src={downIcon}
+              alt="down-icon"
+              className="shake-vertical"
+            ></img>
           </AnchorLink>
         </p>
       </div>
