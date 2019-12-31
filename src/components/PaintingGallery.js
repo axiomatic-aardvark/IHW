@@ -41,6 +41,8 @@ import afroGirl from "../images/gallery/paintingPictures/afro-girl.jpg";
 import ship from "../images/gallery/paintingPictures/ship.jpg";
 import pink from "../images/gallery/paintingPictures/pink.JPG";
 import yinyang from "../images/gallery/paintingPictures/yinyang.jpg";
+import crying from "../images/gallery/paintingPictures/crying.JPG";
+import baby from "../images/gallery/paintingPictures/baby.JPG";
 
 export default ({ isVisible }) => {
   const animation = isVisible ? "fade-in visible" : "invisible";
@@ -85,7 +87,8 @@ export default ({ isVisible }) => {
         {genOnePicture("ship", ship)}
         {genOnePicture("pink", pink)}
         {genOnePicture("yinyang", yinyang)}
-
+        {genOnePicture("crying", crying)}
+        {genOnePicture("baby", baby)}
       </Slider>
     </section>
   );
