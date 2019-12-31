@@ -51,6 +51,8 @@ export default ({ isVisible }) => {
 
   return (
     <section id="painting-gallery">
+      <span className="gallery-title">Paintings</span>
+
       <Slider {...sliderParams} className={`slider ${animation}`}>
         <div className="group eaten-apple">
           <img src={eatenApple} alt="eaten-apple"></img>
