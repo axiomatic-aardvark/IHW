@@ -41,14 +41,11 @@ import stones from "../images/gallery/metalPictures/stones.jpg";
 import stones1 from "../images/gallery/metalPictures/stones1.jpg";
 import violinMetal from "../images/gallery/metalPictures/violin.jpg";
 import horse from "../images/gallery/metalPictures/horse.jpg";
-import horse1 from "../images/gallery/metalPictures/horse1.jpg";
 import perspective from "../images/gallery/metalPictures/perspective.jpg";
 import perspective1 from "../images/gallery/metalPictures/perspective1.jpg";
 import embrace from "../images/gallery/metalPictures/embrace.jpg";
 import twoFaces from "../images/gallery/metalPictures/two-faces.jpg";
-import twoFaces1 from "../images/gallery/metalPictures/two-faces1.JPG";
 import splitFace from "../images/gallery/metalPictures/split-face.jpg";
-import splitFace1 from "../images/gallery/metalPictures/split-face1.jpg";
 import hope from "../images/gallery/metalPictures/hope.jpg";
 import hopeInverted from "../images/gallery/metalPictures/hope-inverted.jpg";
 import womanAndMan from "../images/gallery/metalPictures/woman-and-man.jpg";
@@ -124,13 +121,13 @@ export default ({ isVisible }) => {
         <div className="group violinMetal">
           <img src={violinMetal} alt="violinMetal"></img>
         </div>
-        {genPicture("horse", horse, horse1)}
+        {genOnePicture("horse", horse)}
         {genPicture("perspective", perspective, perspective1)}
         <div className="group embrace">
           <img src={embrace} alt="embrace"></img>
         </div>
-        {genPicture("two-faces", twoFaces, twoFaces1)}
-        {genPicture("split-face", splitFace, splitFace1)}
+        {genOnePicture("two-faces", twoFaces)}
+        {genOnePicture("split-face", splitFace)}
         <div className="group hope">
           <img src={hope} alt="hope"></img>
         </div>

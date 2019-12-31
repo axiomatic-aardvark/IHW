@@ -275,18 +275,15 @@
             }
 
             &.horse {
-                margin-top: 12vh;
+                margin-top: 17vh;
 
                 img {
                     &:first-of-type {
-                        margin-left: -3vw;
-                        margin-right: 5vw;
-                        max-width: 56%;
+
+                        max-width: 69%;
                     }
 
-                    &:nth-child(2) {
-                        max-width: 42%;
-                    }
+
                 }
             }
 
@@ -328,17 +325,15 @@
             }
 
             &.split-face {
-                margin-top: 12vh;
+                margin-top: 15vh;
 
                 img {
                     &:first-of-type {
 
-                        max-width: 48%;
+                        max-width: 50%;
                     }
 
-                    &:nth-child(2) {
-                        max-width: 37%;
-                    }
+
                 }
             }
 
