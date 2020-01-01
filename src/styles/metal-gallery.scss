@@ -91,11 +91,14 @@
             }
 
             &.girl {
+                margin-left: 13vw;
                 margin-top: 10vh;
             }
 
             &.roses {
                 margin-top: 10vh;
+                margin-left: 13vw;
+
             }
 
             &.oprah {
@@ -176,8 +179,8 @@
 
                 }
 
-                container{
-                    img{
+                container {
+                    img {
                         max-width: 55% !important;
                     }
                 }
@@ -185,28 +188,35 @@
 
             &.madara {
                 margin-top: 5vh;
+                margin-left: 13vw;
 
                 img {
                     &:first-of-type {
                         max-width: 28%;
                     }
 
-                    &:nth-child(2) {
-                        max-width: 42%;
+                }
+
+                container {
+                    img {
+                        max-width: 57% !important;
                     }
                 }
             }
 
             &.girl-apple {
                 margin-bottom: 2.5vh;
+                margin-left: 14vw;
 
                 img {
                     &:first-of-type {
                         max-width: 20%;
                     }
+                }
 
-                    &:nth-child(2) {
-                        max-width: 40%;
+                container {
+                    img {
+                        max-width: 50%;
                     }
                 }
             }

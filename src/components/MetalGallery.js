@@ -110,14 +110,24 @@ export default ({ isVisible }) => {
           setIsHovered
         )}
 
-        <div className="group elchoMetal">
-          <img src={elchoMetal} alt="elchoMetal"></img>
-          <img src={elcho1} alt="elchoMetal"></img>
-        </div>
-        <div className="group madara">
-          <img src={madara} alt="madara"></img>
-          <img src={madara1} alt="madara"></img>
-        </div>
+        {genPicture(
+          "madara",
+          madara,
+          madara1,
+          "Madara",
+          isHovered,
+          setIsHovered
+        )}
+
+        {genPicture(
+          "girl-apple",
+          girlApple,
+          girlApple1,
+          "Girl Apple",
+          isHovered,
+          setIsHovered
+        )}
+
         <div className="group girl-apple">
           <img src={girlApple} alt="girl-apple"></img>
           <img src={girlApple1} alt="girl-apple"></img>
