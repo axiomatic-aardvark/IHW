@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -65,39 +65,51 @@ import eyes from "../images/gallery/metalPictures/eyes.jpg";
 
 export default ({ isVisible }) => {
   const animation = isVisible ? "fade-in visible" : "invisible";
+  const [isHovered, setIsHovered] = useState(false);
+
+  console.log(isHovered);
 
   return (
     <section id="metal-gallery">
       <span className="gallery-title">Metal Art</span>
       <Slider {...sliderParams} className={`slider ${animation}`}>
-        <div className="group bird">
-          <img src={bird} alt="bird"></img>
-          <img src={bird1} alt="bird1"></img>
-        </div>
-        <div className="group girl">
-          <img src={girl} alt="girl"></img>
-          <img src={girl1} alt="girl"></img>
-        </div>
-        <div className="group roses">
-          <img src={roses} alt="roses"></img>
-          <img src={roses1} alt="roses"></img>
-        </div>
-        <div className="group goblet">
-          <img src={goblet} alt="goblet"></img>
-          <img src={goblet1} alt="goblet"></img>
-        </div>
-        <div className="group oprah">
-          <img src={oprah1} alt="oprah"></img>
-          <img src={oprah} alt="oprah"></img>
-        </div>
-        <div className="group glasses">
-          <img src={glasses} alt="glasses"></img>
-          <img src={glasses1} alt="glasses1"></img>
-        </div>
-        <div className="group thinking-girl">
-          <img src={thinkingGirl} alt="thinking-girl"></img>
-          <img src={thinkingGirl1} alt="thinking-girl"></img>
-        </div>
+        {genPicture("bird", bird, bird1, "Birdman", isHovered, setIsHovered)}
+        {genPicture("girl", girl, girl1, "Girl", isHovered, setIsHovered)}
+        {genPicture("roses", roses, roses1, "Roses", isHovered, setIsHovered)}
+        {genPicture(
+          "goblet",
+          goblet,
+          goblet1,
+          "Goblet",
+          isHovered,
+          setIsHovered
+        )}
+        {genPicture("oprah", oprah1, oprah, "Oprah", isHovered, setIsHovered)}
+        {genPicture(
+          "glasses",
+          glasses,
+          glasses1,
+          "Glasses",
+          isHovered,
+          setIsHovered
+        )}
+        {genPicture(
+          "thinking-girl",
+          thinkingGirl,
+          thinkingGirl1,
+          "Thinking girl",
+          isHovered,
+          setIsHovered
+        )}
+        {genPicture(
+          "elchoMetal",
+          elchoMetal,
+          elcho1,
+          "Elcho Metal",
+          isHovered,
+          setIsHovered
+        )}
+
         <div className="group elchoMetal">
           <img src={elchoMetal} alt="elchoMetal"></img>
           <img src={elcho1} alt="elchoMetal"></img>
@@ -136,19 +148,19 @@ export default ({ isVisible }) => {
         {genOnePicture("two-faces", twoFaces)}
         {genPicture("split-face", splitFace, splitFace1)}
         <div className="group hope">
-          <img  className="one" src={hope} alt="hope"></img>
+          <img className="one" src={hope} alt="hope"></img>
         </div>
         <div className="group hope-inverted">
-          <img  className="one" src={hopeInverted} alt="hope-inverted"></img>
+          <img className="one" src={hopeInverted} alt="hope-inverted"></img>
         </div>
         {genPicture("woman-and-man", womanAndMan, womanAndMan1)}
         {genPicture("three-horses", threeHorses, threeHorses1)}
 
         <div className="group lady">
-          <img  className="one" src={lady} alt="lady"></img>
+          <img className="one" src={lady} alt="lady"></img>
         </div>
         <div className="group little-angel">
-          <img  className="one" src={littleAngel} alt="little-angel"></img>
+          <img className="one" src={littleAngel} alt="little-angel"></img>
         </div>
         {genPicture("hug", hug, hug1)}
         {genOnePicture("sharp-teeth-fish", sharpTeethFish)}

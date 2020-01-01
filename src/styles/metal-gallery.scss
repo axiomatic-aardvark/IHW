@@ -24,14 +24,6 @@
                 img {
                     max-width: 35%;
                     margin: auto;
-
-                    &:nth-child(2) {
-
-                        &:hover {
-                            cursor: pointer;
-                            opacity: 0.3;
-                        }
-                    }
                 }
             }
         }
@@ -62,8 +54,40 @@
             flex-direction: row;
             justify-content: space-between;
 
+            container {
+                position: relative;
+                z-index: 1000;
+
+                img {
+                    max-width: 54%;
+
+                    z-index: 100;
+
+                    &.light-veil {
+                        cursor: pointer;
+                        opacity: 0.3;
+                    }
+
+                }
+
+                span {
+                    position: absolute;
+                    color: black;
+                    left: 43%;
+                    top: 40%;
+                    font-size: 30px;
+
+                    &:hover {
+                        cursor: pointer;
+                    }
+
+                    z-index: 5;
+                }
+            }
+
             &.bird {
                 margin-top: 10vh;
+                margin-left: 12.65vw;
             }
 
             &.girl {
@@ -75,21 +99,35 @@
             }
 
             &.oprah {
+                margin-left: 11vw;
+
                 img {
                     max-width: 40%;
+                }
+
+                container {
+
+                    img {
+                        max-width: 66%;
+                    }
                 }
             }
 
             &.thinking-girl {
                 margin-top: 5vh;
+                margin-left: 12vw;
 
                 img {
                     &:first-of-type {
                         max-width: 35%;
                     }
 
-                    &:nth-child(2) {
-                        max-width: 40%;
+
+                }
+
+                container {
+                    img {
+                        max-width: 63% !important;
                     }
                 }
             }
@@ -110,28 +148,37 @@
 
             &.glasses {
                 margin-top: 5vh;
+                margin-left: 13vw;
 
                 img {
                     &:first-of-type {
                         max-width: 30%;
                     }
 
-                    &:nth-child(2) {
-                        max-width: 40%;
+                }
+
+                container {
+                    img {
+                        max-width: 56% !important;
                     }
                 }
             }
 
             &.elchoMetal {
                 margin-top: 5vh;
+                margin-left: 13vw;
+
 
                 img {
                     &:first-of-type {
                         max-width: 30%;
                     }
 
-                    &:nth-child(2) {
-                        max-width: 40%;
+                }
+
+                container{
+                    img{
+                        max-width: 55% !important;
                     }
                 }
             }
@@ -211,12 +258,16 @@
 
             &.goblet {
                 margin-top: 10vh;
+                margin-left: 10vw;
 
                 img {
                     max-width: 45%;
+                }
 
-                    &:nth-child(2) {
-                        max-width: 46%;
+                container {
+
+                    img {
+                        max-width: 80%
                     }
                 }
             }
