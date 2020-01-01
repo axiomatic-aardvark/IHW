@@ -128,22 +128,27 @@ export default ({ isVisible }) => {
           setIsHovered
         )}
 
-        <div className="group girl-apple">
-          <img src={girlApple} alt="girl-apple"></img>
-          <img src={girlApple1} alt="girl-apple"></img>
-        </div>
-        <div className="group old-woman">
-          <img src={oldWoman} alt="old-woman"></img>
-          <img src={oldWoman1} alt="old-woman"></img>
-        </div>
-        <div className="group old-hands">
-          <img src={oldHands} alt="old-hands"></img>
-          <img src={oldHands1} alt="old-hands1"></img>
-        </div>
+        {genPicture(
+          "old-woman",
+          oldWoman,
+          oldWoman1,
+          "Old Woman",
+          isHovered,
+          setIsHovered
+        )}
 
-        {genPicture("samba", samba, samba1)}
-        {genOnePicture("angel", angel)}
-        {genPicture("naked-girl", nakedGirl, nakedGirl1)}
+        {genPicture(
+          "old-hands",
+          oldHands,
+          oldHands1,
+          "Old Hands",
+          isHovered,
+          setIsHovered
+        )}
+
+        {genPicture("samba", samba, samba1, "Samba", isHovered, setIsHovered)}
+        {genOnePicture("angel", angel, "Angel", isHovered, setIsHovered)}
+        {/* {genPicture("naked-girl", nakedGirl, nakedGirl1)}
         {genOnePicture("eye-with-hand", eyeWithHand)}
         {genPicture("autoportrait", autoportrait, autoportrait1)}
         {genPicture("stones", stones, stones1)}
@@ -177,7 +182,7 @@ export default ({ isVisible }) => {
         {genOnePicture("nikulden", nikulden)}
         {genOnePicture("horse-with-baby", horseWithBaby)}
         {genOnePicture("in-love", inLove)}
-        {genOnePicture("eyes", eyes)}
+        {genOnePicture("eyes", eyes)} */}
       </Slider>
     </section>
   );

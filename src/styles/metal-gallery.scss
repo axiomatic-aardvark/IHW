@@ -216,23 +216,23 @@
 
                 container {
                     img {
-                        max-width: 50%;
+                        max-width: 50% !important;
                     }
                 }
             }
 
             &.old-woman {
                 margin-top: 1vh;
+                margin-left: 12vw;
 
-                img {
-                    &:nth-child(2) {
-                        max-width: 37%;
-                    }
+                container img {
+                    max-width: 60%
                 }
             }
 
             &.old-hands {
                 margin-top: 20vh;
+                margin-left: 11.5vw;
 
                 img {
                     max-width: 50%;
@@ -240,29 +240,31 @@
                     &:first-of-type {
                         max-width: 48%;
                         margin-left: -4vw;
-                        margin-right: 5vw;
+                        margin-right: 7vw;
                     }
 
-                    &:nth-child(2) {
-                        max-width: 54%;
-                    }
+
+                }
+
+                container img {
+                    max-width: 110% !important;
                 }
             }
 
             &.samba {
-                margin-top: 13vh;
+                margin-top: 15vh;
+                margin-left: 9.5vw;
 
                 img {
                     &:first-of-type {
                         margin-left: -4vw;
-
                         max-width: 50%;
-                        margin-right: 2.5vw;
+                        margin-right: 7vw;
                     }
+                }
 
-                    &:nth-child(2) {
-                        max-width: 57%;
-                    }
+                container img {
+                    max-width: 120% !important;
                 }
             }
 
@@ -297,7 +299,7 @@
             }
 
             &.angel {
-                margin-top: 2vh;
+                margin-top: 5vh;
 
                 img {
                     max-width: 40%;
