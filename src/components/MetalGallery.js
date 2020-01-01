@@ -126,29 +126,29 @@ export default ({ isVisible }) => {
         {genPicture("autoportrait", autoportrait, autoportrait1)}
         {genPicture("stones", stones, stones1)}
         <div className="group violinMetal">
-          <img src={violinMetal} alt="violinMetal"></img>
+          <img className="one" src={violinMetal} alt="violinMetal"></img>
         </div>
         {genOnePicture("horse", horse)}
         {genPicture("perspective", perspective, perspective1)}
         <div className="group embrace">
-          <img src={embrace} alt="embrace"></img>
+          <img src={embrace} alt="embrace" className="one"></img>
         </div>
         {genOnePicture("two-faces", twoFaces)}
         {genPicture("split-face", splitFace, splitFace1)}
         <div className="group hope">
-          <img src={hope} alt="hope"></img>
+          <img  className="one" src={hope} alt="hope"></img>
         </div>
         <div className="group hope-inverted">
-          <img src={hopeInverted} alt="hope-inverted"></img>
+          <img  className="one" src={hopeInverted} alt="hope-inverted"></img>
         </div>
         {genPicture("woman-and-man", womanAndMan, womanAndMan1)}
         {genPicture("three-horses", threeHorses, threeHorses1)}
 
         <div className="group lady">
-          <img src={lady} alt="lady"></img>
+          <img  className="one" src={lady} alt="lady"></img>
         </div>
         <div className="group little-angel">
-          <img src={littleAngel} alt="little-angel"></img>
+          <img  className="one" src={littleAngel} alt="little-angel"></img>
         </div>
         {genPicture("hug", hug, hug1)}
         {genOnePicture("sharp-teeth-fish", sharpTeethFish)}
