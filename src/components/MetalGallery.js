@@ -148,41 +148,132 @@ export default ({ isVisible }) => {
 
         {genPicture("samba", samba, samba1, "Samba", isHovered, setIsHovered)}
         {genOnePicture("angel", angel, "Angel", isHovered, setIsHovered)}
-        {/* {genPicture("naked-girl", nakedGirl, nakedGirl1)}
-        {genOnePicture("eye-with-hand", eyeWithHand)}
-        {genPicture("autoportrait", autoportrait, autoportrait1)}
-        {genPicture("stones", stones, stones1)}
-        <div className="group violinMetal">
-          <img className="one" src={violinMetal} alt="violinMetal"></img>
-        </div>
-        {genOnePicture("horse", horse)}
-        {genPicture("perspective", perspective, perspective1)}
-        <div className="group embrace">
-          <img src={embrace} alt="embrace" className="one"></img>
-        </div>
-        {genOnePicture("two-faces", twoFaces)}
-        {genPicture("split-face", splitFace, splitFace1)}
-        <div className="group hope">
-          <img className="one" src={hope} alt="hope"></img>
-        </div>
-        <div className="group hope-inverted">
-          <img className="one" src={hopeInverted} alt="hope-inverted"></img>
-        </div>
-        {genPicture("woman-and-man", womanAndMan, womanAndMan1)}
-        {genPicture("three-horses", threeHorses, threeHorses1)}
-
-        <div className="group lady">
-          <img className="one" src={lady} alt="lady"></img>
-        </div>
-        <div className="group little-angel">
-          <img className="one" src={littleAngel} alt="little-angel"></img>
-        </div>
-        {genPicture("hug", hug, hug1)}
-        {genOnePicture("sharp-teeth-fish", sharpTeethFish)}
-        {genOnePicture("nikulden", nikulden)}
-        {genOnePicture("horse-with-baby", horseWithBaby)}
-        {genOnePicture("in-love", inLove)}
-        {genOnePicture("eyes", eyes)} */}
+        {genPicture(
+          "naked-girl",
+          nakedGirl,
+          nakedGirl1,
+          "Naked Girl",
+          isHovered,
+          setIsHovered
+        )}
+        {genOnePicture(
+          "eye-with-hand",
+          eyeWithHand,
+          "Eye with hand",
+          isHovered,
+          setIsHovered
+        )}
+        {genPicture(
+          "autoportrait",
+          autoportrait,
+          autoportrait1,
+          "Autoportrait",
+          isHovered,
+          setIsHovered
+        )}
+        {genPicture(
+          "stones",
+          stones,
+          stones1,
+          "Stones",
+          isHovered,
+          setIsHovered
+        )}
+        {genOnePicture(
+          "violinMetal",
+          violinMetal,
+          "Violin",
+          isHovered,
+          setIsHovered
+        )}
+        {genOnePicture("horse", horse, "Horse", isHovered, setIsHovered)}
+        {genPicture(
+          "perspective",
+          perspective,
+          perspective1,
+          "perspective",
+          isHovered,
+          setIsHovered
+        )}
+        {genOnePicture("embrace", embrace, "Embrace", isHovered, setIsHovered)}
+        {genOnePicture(
+          "two-faces",
+          twoFaces,
+          "Two Faces",
+          isHovered,
+          setIsHovered
+        )}
+        {genPicture(
+          "split-face",
+          splitFace,
+          splitFace1,
+          "split face",
+          isHovered,
+          setIsHovered
+        )}
+        {genOnePicture("hope", hope, "Hope", isHovered, setIsHovered)}
+        {genOnePicture(
+          "hope-inverted",
+          hopeInverted,
+          "Hope Inverted",
+          isHovered,
+          setIsHovered
+        )}
+        {genPicture(
+          "woman-and-man",
+          womanAndMan,
+          womanAndMan1,
+          "Woman and Man",
+          isHovered,
+          setIsHovered
+        )}
+        {genPicture(
+          "three-horses",
+          threeHorses,
+          threeHorses1,
+          "Three Horses",
+          isHovered,
+          setIsHovered
+        )}
+        {genOnePicture(
+          "hope-inverted",
+          hopeInverted,
+          "Hope Inverted",
+          isHovered,
+          setIsHovered
+        )}
+        {genOnePicture("lady", lady, "Lady", isHovered, setIsHovered)}
+        {genOnePicture(
+          "little-angel",
+          littleAngel,
+          "Little Angel",
+          isHovered,
+          setIsHovered
+        )}
+        {genPicture("hug", hug, hug1, "Hug", isHovered, setIsHovered)}
+        {genOnePicture(
+          "sharp-teeth-fish",
+          sharpTeethFish,
+          "Sharp Teeth Fish",
+          isHovered,
+          setIsHovered
+        )}
+        {genOnePicture(
+          "nikulden",
+          nikulden,
+          "Nikulden",
+          isHovered,
+          setIsHovered
+        )}
+        {genOnePicture(
+          "horse-with-baby",
+          horseWithBaby,
+          "Horse With Baby",
+          isHovered,
+          setIsHovered
+        )}
+        {genOnePicture("in-love", inLove, "In Love", isHovered, setIsHovered)}
+        {genOnePicture("eyes", eyes, "Eyes", isHovered, setIsHovered)}
       </Slider>
     </section>
   );

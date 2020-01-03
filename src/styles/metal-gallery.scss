@@ -285,15 +285,18 @@
             }
 
             &.autoportrait {
-                margin-top: 2vh;
+                margin-top: 3vh;
+                margin-left: 12vw;
 
                 img {
                     &:first-of-type {
                         max-width: 29%;
                     }
+                }
 
-                    &:nth-child(2) {
-                        max-width: 40%;
+                container {
+                    img {
+                        max-width: 55% !important;
                     }
                 }
             }
@@ -307,25 +310,27 @@
             }
 
             &.naked-girl {
-                margin-top: 12vh;
+                margin-top: 20vh;
 
                 img {
                     max-width: 46%;
 
                     &:first-of-type {
-                        margin-left: -4vw;
+                        margin-left: -1.5vw;
                         margin-right: 5vw;
                         max-width: 56%;
                     }
+                }
 
-                    &:nth-child(2) {
-                        max-width: 50%;
+                container {
+                    img {
+                        max-width: 110% !important;
                     }
                 }
             }
 
             &.eye-with-hand {
-                margin-top: 5vh;
+                margin-top: 10vh;
 
                 img {
                     max-width: 44%;
@@ -333,20 +338,24 @@
             }
 
             &.stones {
-                margin-top: 15vh;
+                margin-top: 18vh;
 
                 img {
                     &:first-of-type {
-                        margin-left: -6vw;
+                        margin-left: -2vw;
                         margin-right: 5vw;
                     }
 
                     max-width: 55%;
                 }
+
+                container img {
+                    max-width: 120% !important;
+                }
             }
 
             &.violinMetal {
-                margin-top: 12vh;
+                margin-top: 15vh;
 
                 img {
                     max-width: 60%;
@@ -354,20 +363,19 @@
             }
 
             &.horse {
-                margin-top: 17vh;
+                margin-top: 20vh;
 
                 img {
                     &:first-of-type {
 
                         max-width: 69%;
                     }
-
-
                 }
             }
 
             &.perspective {
                 margin-top: 5vh;
+                margin-left: 8vw;
 
                 img {
                     &:first-of-type {
@@ -375,9 +383,11 @@
                         margin-right: 5vw;
                         max-width: 53%;
                     }
+                }
 
-                    &:nth-child(2) {
-                        max-width: 42%;
+                container {
+                    img {
+                        max-width: 105% !important;
                     }
                 }
             }
@@ -392,45 +402,44 @@
                 margin-top: 2vh;
 
                 img {
-                    &:first-of-type {
-
-                        max-width: 28%;
-                    }
-
-                    &:nth-child(2) {
-                        max-width: 35%;
-                    }
+                    max-width: 29%;
                 }
             }
 
             &.split-face {
                 margin-top: 9vh;
+                margin-left: 9vw;
 
                 img {
                     &:first-of-type {
-
                         max-width: 50%;
                     }
+                }
 
-
+                container {
+                    max-width: 70%;
                 }
             }
 
             &.hope,
             &.hope-inverted {
+                margin-top: 3vh;
 
                 img {
                     &:first-of-type {
 
                         max-width: 45%;
                     }
-
-
                 }
+            }
+
+            &.hope-inverted {
+                margin-top: 10vh !important;
             }
 
             &.woman-and-man {
                 margin-top: 5vh;
+                margin-left: 10vw;
 
                 img {
                     &:first-of-type {
@@ -438,26 +447,27 @@
                         max-width: 48%;
                     }
 
-                    &:nth-child(2) {
-                        max-width: 39%;
+                    container {
+                        img {
+                            max-width: 75% !important;
+                        }
                     }
                 }
             }
 
             &.three-horses {
-                margin-top: 7vh;
-
+                margin-top: 10vh;
 
                 img {
                     &:first-of-type {
-                        margin-right: 5vw;
+                        margin-right: 9vw;
                         margin-left: -5vw;
                         max-width: 60%;
                     }
+                }
 
-                    &:nth-child(2) {
-                        max-width: 47%;
-                    }
+                container img {
+                    max-width: 140% !important;
                 }
             }
 
@@ -466,7 +476,7 @@
             }
 
             &.lady {
-                margin-top: 5vh;
+                margin-top: 10vh;
 
                 img {
                     &:first-of-type {
@@ -477,6 +487,7 @@
             }
 
             &.little-angel {
+                margin-top: 2vh;
 
                 img {
                     &:first-of-type {
@@ -487,12 +498,12 @@
             }
 
             &.hug {
-                margin-top: 2vh;
+                margin-top: 7vh;
+                margin-left: 10vw;
 
-                img {
-
-                    &:nth-child(2) {
-                        max-width: 43%;
+                container {
+                    img {
+                        max-width: 65% !important;
                     }
                 }
             }
@@ -512,12 +523,25 @@
                 }
             }
 
+            &.sharp-teeth-fish img {
+                max-width: 60% !important;
+            }
+
+            &.horse-with-baby img {
+                max-width: 57% !important;
+            }
+
+
+            &.in-love img {
+                max-width: 67% !important;
+            }
+
             &.nikulden,
             &.in-love {
                 img {
                     &:first-of-type {
 
-                        max-width: 52.5%;
+                        max-width: 57.5%;
                     }
                 }
             }
@@ -529,7 +553,7 @@
                 img {
                     &:first-of-type {
 
-                        max-width: 65%;
+                        max-width: 80% !important;
                     }
                 }
             }
