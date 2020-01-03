@@ -73,8 +73,9 @@
                 span {
                     position: absolute;
                     color: black;
-                    left: 43%;
-                    top: 40%;
+                    left: 50%;
+                    bottom: 50%;
+                    transform: translate(-50%, 0);
                     font-size: 30px;
 
                     &:hover {
@@ -408,7 +409,7 @@
 
             &.split-face {
                 margin-top: 9vh;
-                margin-left: 9vw;
+                margin-left: 10.5vw;
 
                 img {
                     &:first-of-type {
@@ -416,8 +417,8 @@
                     }
                 }
 
-                container {
-                    max-width: 70%;
+                container img {
+                    max-width: 70% !important;
                 }
             }
 
@@ -443,14 +444,13 @@
 
                 img {
                     &:first-of-type {
-
                         max-width: 48%;
                     }
+                }
 
-                    container {
-                        img {
-                            max-width: 75% !important;
-                        }
+                container {
+                    img {
+                        max-width: 75% !important;
                     }
                 }
             }
@@ -499,7 +499,7 @@
 
             &.hug {
                 margin-top: 7vh;
-                margin-left: 10vw;
+                margin-left: 12vw;
 
                 container {
                     img {
