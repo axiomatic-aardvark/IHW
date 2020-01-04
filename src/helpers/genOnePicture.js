@@ -1,16 +1,16 @@
 import React from "react";
 
-export default (strName, name, pieceTitle, isHovered, setIsHovered) => {
+export default (strName, name, pieceTitle, isHovered, setIsHovered, width) => {
   return (
     <div className={`group ${strName}`}>
       <container>
-        <span disabled={true} onMouseEnter={() => setIsHovered(true)}>
+        <span disabled={true} onMouseEnter={width > 1119 ? () => setIsHovered(true) : null}>
           {isHovered ? pieceTitle : ""}
         </span>
         <img
           className={isHovered ? "light-veil" : ""}
-          onMouseEnter={() => setIsHovered(true)}
-          onMouseLeave={() => setIsHovered(false)}
+          onMouseEnter={width > 1119 ? () => setIsHovered(true) : null}
+          onMouseLeave={width > 1119 ? () => setIsHovered(false) : null}
           onClick={ () => setIsHovered(!isHovered)}
           src={name}
           alt={name}

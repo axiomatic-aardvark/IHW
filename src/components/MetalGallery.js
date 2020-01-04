@@ -198,7 +198,8 @@ export default ({ isVisible, width }) => {
           setIsHovered,
           width
         )}
-        {genOnePicture("angel", angel, "Angel", isHovered, setIsHovered)}
+        {genOnePicture("angel", angel, "Angel", isHovered, setIsHovered,
+          width)}
         {genPicture(
           "naked-girl",
           nakedGirl,
@@ -213,7 +214,8 @@ export default ({ isVisible, width }) => {
           eyeWithHand,
           "Eye with hand",
           isHovered,
-          setIsHovered
+          setIsHovered,
+          width
         )}
         {genPicture(
           "autoportrait",
@@ -241,7 +243,8 @@ export default ({ isVisible, width }) => {
           setIsHovered,
           width
         )}
-        {genOnePicture("horse", horse, "Horse", isHovered, setIsHovered, width)}
+        {genOnePicture("horse", horse, "Horse", isHovered, setIsHovered, width,
+          width)}
         {genPicture(
           "perspective",
           perspective,
@@ -251,7 +254,8 @@ export default ({ isVisible, width }) => {
           setIsHovered,
           width
         )}
-        {genOnePicture("embrace", embrace, "Embrace", isHovered, setIsHovered)}
+        {genOnePicture("embrace", embrace, "Embrace", isHovered, setIsHovered,
+          width)}
         {genOnePicture(
           "two-faces",
           twoFaces,
@@ -269,13 +273,15 @@ export default ({ isVisible, width }) => {
           setIsHovered,
           width
         )}
-        {genOnePicture("hope", hope, "Hope", isHovered, setIsHovered)}
+        {genOnePicture("hope", hope, "Hope", isHovered, setIsHovered,
+          width)}
         {genOnePicture(
           "hope-inverted",
           hopeInverted,
           "Hope Inverted",
           isHovered,
-          setIsHovered
+          setIsHovered,
+          width
         )}
         {genPicture(
           "woman-and-man",
@@ -296,13 +302,15 @@ export default ({ isVisible, width }) => {
           width
         )}
 
-        {genOnePicture("lady", lady, "Lady", isHovered, setIsHovered)}
+        {genOnePicture("lady", lady, "Lady", isHovered, setIsHovered,
+          width)}
         {genOnePicture(
           "little-angel",
           littleAngel,
           "Little Angel",
           isHovered,
-          setIsHovered
+          setIsHovered,
+          width
         )}
         {genPicture("hug", hug, hug1, "Hug", isHovered, setIsHovered, width)}
         {genOnePicture(
@@ -310,25 +318,31 @@ export default ({ isVisible, width }) => {
           sharpTeethFish,
           "Sharp Teeth Fish",
           isHovered,
-          setIsHovered
+          setIsHovered,
+          width
         )}
         {genOnePicture(
           "nikulden",
           nikulden,
           "Nikulden",
           isHovered,
-          setIsHovered
+          setIsHovered,
+          width
         )}
         {genOnePicture(
           "horse-with-baby",
           horseWithBaby,
           "Horse With Baby",
           isHovered,
-          setIsHovered
+          setIsHovered,
+          width
         )}
-        {genOnePicture("in-love", inLove, "In Love", isHovered, setIsHovered)}
-        {genOnePicture("eyes", eyes, "Eyes", isHovered, setIsHovered)}
-        {genOnePicture("last", last, "Last", isHovered, setIsHovered)}
+        {genOnePicture("in-love", inLove, "In Love", isHovered, setIsHovered,
+          width)}
+        {genOnePicture("eyes", eyes, "Eyes", isHovered, setIsHovered,
+          width)}
+        {genOnePicture("last", last, "Last", isHovered, setIsHovered,
+          width)}
       </Slider>
     </section>
   );

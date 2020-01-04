@@ -28,6 +28,6 @@ export default (
       </container>
     </div>
   ) : (
-    genOnePicture(strName, name, pieceTitle, isHovered, setIsHovered)
+    genOnePicture(strName, name, pieceTitle, isHovered, setIsHovered, width)
   );
 };
