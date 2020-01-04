@@ -6,7 +6,7 @@ export default function ContactMe() {
   return (
     <section id="contact-me">
       <div className="veil"></div>
-      <div className="container">
+      <div className="container swing-in-top-fwd fade-in">
         <img src={avatar} alt="avatar"></img>
         <div className="box">
           <p className="title">Contact me here:</p>
