@@ -2,6 +2,9 @@
 
     body {
 
+        .language-select {
+            min-height: 100px !important;
+        }
 
         .group span {
             top: 70% !important;
@@ -51,12 +54,12 @@
             }
         }
 
-        #metal-gallery .slider .group.eyes container{
-            margin-top:1vh !important; 
+        #metal-gallery .slider .group.eyes container {
+            margin-top: 1vh !important;
         }
 
-        #metal-gallery .slider .group.eyes img:first-of-type{
-            max-width:115% !important;
+        #metal-gallery .slider .group.eyes img:first-of-type {
+            max-width: 115% !important;
         }
 
         #metal-gallery .slider .group.sharp-teeth-fish container {
@@ -72,7 +75,7 @@
 
             img {
                 max-width: 70% !important;
-                margin-left:10vw !important;
+                margin-left: 10vw !important;
             }
         }
 
@@ -86,11 +89,10 @@
         }
 
         #metal-gallery .slider .group.madara container {
-            margin-top: -8vh !important;
+            margin-top: 0vh !important;
 
             img {
-                max-width: 110% !important;
-                margin-left: -25px !important;
+                max-width: 100% !important;
             }
         }
 
