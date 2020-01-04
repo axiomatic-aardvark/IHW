@@ -45,7 +45,6 @@ import crying from "../images/gallery/paintingPictures/crying.JPG";
 import baby from "../images/gallery/paintingPictures/baby.JPG";
 import horo from "../images/gallery/paintingPictures/horo.JPG";
 import redWoman from "../images/gallery/paintingPictures/red-woman.jpg";
-import { isCompositeComponentWithType } from "react-dom/test-utils";
 
 export default ({ isVisible }) => {
   const animation = isVisible ? "fade-in visible" : "invisible";
@@ -152,30 +151,95 @@ export default ({ isVisible }) => {
         {genOnePicture("pear", pear, "Pear", isHovered, setIsHovered)}
         {genOnePicture("lips", lips, "Lips", isHovered, setIsHovered)}
         {genOnePicture("violin", violin, "Violin", isHovered, setIsHovered)}
+        {genOnePicture("elcho", elcho, "Elcho", isHovered, setIsHovered)}
+        {genOnePicture("bun", bun, "Bun", isHovered, setIsHovered)}
+        {genOnePicture(
+          "naked-girl-painting",
+          nakedGirlPainting,
+          "Naked Girl",
+          isHovered,
+          setIsHovered
+        )}
+        {genOnePicture(
+          "underwear",
+          underwear,
+          "Underwear",
+          isHovered,
+          setIsHovered
+        )}
+        {genOnePicture(
+          "naked-girl-skirt",
+          nakedGirlSkirt,
+          "Naked Girl Skirt",
+          isHovered,
+          setIsHovered
+        )}
+        {genOnePicture(
+          "black-girl-breast",
+          blackGirlBreast,
+          "Black Girl Breast",
+          isHovered,
+          setIsHovered
+        )}
+        {genOnePicture(
+          "naked-girl-blanket",
+          nakedGirlBlanket,
+          "Blanket",
+          isHovered,
+          setIsHovered
+        )}
+        {genOnePicture(
+          "sleeping",
+          sleeping,
+          "Sleeping",
+          isHovered,
+          setIsHovered
+        )}
+        {genOnePicture("stretch", stretch, "Stretch", isHovered, setIsHovered)}
+        {genOnePicture(
+          "girl-horse",
+          girlHorse,
+          "Girl Horse",
+          isHovered,
+          setIsHovered
+        )}
 
-        {/* 
-        {genOnePicture("elcho", elcho)}
-        {genOnePicture("bun", bun)}
-        {genOnePicture("naked-girl-painting", nakedGirlPainting)}
-        {genOnePicture("underwear", underwear)}
-        {genOnePicture("naked-girl-skirt", nakedGirlSkirt)}
-        {genOnePicture("black-girl-breast", blackGirlBreast)}
-        {genOnePicture("naked-girl-blanket", nakedGirlBlanket)}
-        {genOnePicture("sleeping", sleeping)}
-        {genOnePicture("stretch", stretch)}
-        {genOnePicture("girl-horse", girlHorse)}
-        {genOnePicture("piano", piano)}
-        {genOnePicture("dardk-horse", darkHorse)}
-        {genOnePicture("smoking-red", smokingRed)}
-        {genOnePicture("cat", cat)}
-        {genOnePicture("afro-girl", afroGirl)}
-        {genOnePicture("ship", ship)}
-        {genOnePicture("pink", pink)}
-        {genOnePicture("yinyang", yinyang)}
-        {genOnePicture("crying", crying)}
-        {genOnePicture("baby", baby)}
-        {genOnePicture("horo", horo)}
-        {genOnePicture("red-woman", redWoman)} */}
+        {genOnePicture("piano", piano, "Piano", isHovered, setIsHovered)}
+        {genOnePicture(
+          "dark-horse",
+          darkHorse,
+          "Dark Horse",
+          isHovered,
+          setIsHovered
+        )}
+        {genOnePicture(
+          "smoking-red",
+          smokingRed,
+          "Smoking Red",
+          isHovered,
+          setIsHovered
+        )}
+        {genOnePicture("cat", cat, "Cat", isHovered, setIsHovered)}
+        {genOnePicture(
+          "afro-girl",
+          afroGirl,
+          "Afro Girl",
+          isHovered,
+          setIsHovered
+        )}
+        {genOnePicture("ship", ship, "Ship", isHovered, setIsHovered)}
+        {genOnePicture("pink", pink, "Pink", isHovered, setIsHovered)}
+        {genOnePicture("yinyang", yinyang, "Yin-Yang", isHovered, setIsHovered)}
+        {genOnePicture("crying", crying, "Crying", isHovered, setIsHovered)}
+        {genOnePicture("baby", baby, "Baby", isHovered, setIsHovered)}
+        {genOnePicture("horo", horo, "Horo", isHovered, setIsHovered)}
+        {genOnePicture(
+          "red-woman",
+          redWoman,
+          "Red Woman",
+          isHovered,
+          setIsHovered
+        )}
       </Slider>
     </section>
   );
