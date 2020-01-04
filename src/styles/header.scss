@@ -20,7 +20,7 @@
         li {
             z-index: 10;
 
-            &:hover a{
+            &:hover a {
                 cursor: pointer;
                 color: white !important;
             }
@@ -69,5 +69,9 @@
                 }
             }
         }
+    }
+
+    .language-select {
+        min-width: 400px;
     }
 }
