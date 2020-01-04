@@ -97,10 +97,8 @@
         }
 
         #metal-gallery .slider .group.girl-apple container {
-            margin-top: -0vh !important;
-
             img {
-                max-width: 90% !important;
+                max-width: 70% !important;
             }
         }
 
@@ -279,6 +277,24 @@
         }
 
 
+        #metal-gallery .slider .group.glasses container {
+            margin-top: 3vh !important;
+        }
+
+        #metal-gallery .slider .group.thinking-girl container {
+            margin-top: 3vh !important;
+        }
+
+        #metal-gallery .slider .group.elchoMetal container {
+            margin-top: 3vh !important;
+        }
+
+        #metal-gallery .slider .group.girl-apple container {
+            margin-top: 7vh !important;
+            margin-right:-1vw !important;
+        }
+
+
         .slick-next {
             margin-right: -58px !important;
             width: 20px !important;
@@ -313,7 +329,7 @@
                 position: absolute;
                 top: 40px;
                 left: 10px;
-                min-width:390px !important;
+                min-width: 390px !important;
             }
         }
 
@@ -378,7 +394,7 @@
             .elchoMetal container {
                 margin: auto;
                 width: 100%;
-                margin-top: 10vh !important;
+                margin-top: 12vh !important;
 
                 img {
                     max-width: 80% !important;
