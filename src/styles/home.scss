@@ -6,8 +6,11 @@
     .welcome {
         z-index: 10;
         position: absolute;
-        top: 40vh;
-        left: 40vw;
+        // top: 40vh;
+        // left: 40vw;
+        left: 50%;
+        bottom: 50%;
+        transform: translate(-50%, 0);
 
         span {
             color: #f4f8fc;
@@ -35,8 +38,9 @@
             img {
                 width: 70px;
                 /* margin-left: 10vh; */
-                margin-left: 29vw;
+                margin-left: 28vw;
                 margin-bottom: -2vh;
+                
 
                 &:hover {
                     cursor: pointer;

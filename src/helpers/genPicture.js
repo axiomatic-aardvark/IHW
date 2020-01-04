@@ -1,4 +1,5 @@
 import React from "react";
+import genOnePicture from "./genOnePicture";
 
 export default (
   strName,
@@ -6,9 +7,11 @@ export default (
   details,
   pieceTitle,
   isHovered,
-  setIsHovered
+  setIsHovered,
+  width
 ) => {
-  return (
+  console.log(width);
+  return width > 1119 ? (
     <div className={`group ${strName}`}>
       <img src={name} alt={name}></img>
       <container>
@@ -24,5 +27,7 @@ export default (
         </span>
       </container>
     </div>
+  ) : (
+    genOnePicture(strName, name, pieceTitle, isHovered, setIsHovered)
   );
 };
