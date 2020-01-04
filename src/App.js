@@ -3,7 +3,7 @@ import TrackVisibility from "react-on-screen";
 import Home from "./components/Home";
 import MetalGallery from "./components/MetalGallery";
 import PaintingGallery from "./components/PaintingGallery";
-import MoreInfo from "./components/MoreInfo";
+import ContactMe from "./components/ContactMe";
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
       >
         <PaintingGallery />
       </TrackVisibility>
-      <MoreInfo />
+      <ContactMe />
     </div>
   );
 }
