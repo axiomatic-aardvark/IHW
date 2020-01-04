@@ -131,6 +131,8 @@
             }
         }
 
+      
+
         #metal-gallery .slider .group.angel container {
             margin-top: 2vh !important;
 
@@ -276,6 +278,14 @@
             }
         }
 
+
+        #metal-gallery .slider .group.last container {
+            margin-top:7vh !important;
+            img {
+                max-width: 50% !important;
+                margin-left:15vw !important; 
+            }
+        }
 
         #metal-gallery .slider .group.glasses container {
             margin-top: 3vh !important;
@@ -607,7 +617,7 @@
                 margin: auto;
 
                 img {
-                    max-width: 30% !important;
+                    max-width: 25% !important;
                 }
 
             }

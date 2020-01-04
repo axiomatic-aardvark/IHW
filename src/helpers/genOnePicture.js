@@ -11,6 +11,7 @@ export default (strName, name, pieceTitle, isHovered, setIsHovered) => {
           className={isHovered ? "light-veil" : ""}
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
+          onClick={ () => setIsHovered(!isHovered)}
           src={name}
           alt={name}
         ></img>
