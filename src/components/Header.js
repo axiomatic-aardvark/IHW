@@ -26,7 +26,7 @@ const Option = props => {
 const formatLang = lang => (
   <Fragment>
     <img className="ph-flag" src={lang === "en" ? en : de} alt="flag"></img>
-    Language
+    {lang === "en" ? "English" : "Deutsch"}
   </Fragment>
 );
 
@@ -61,6 +61,7 @@ export default function Header() {
           options={options}
           components={{ Option }}
           isSearchable={false}
+          value={language}
           placeholder={formatLang(language)}
           onChange={e => {
             onChangeLang(e);

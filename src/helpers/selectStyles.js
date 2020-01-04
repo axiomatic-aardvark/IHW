@@ -9,7 +9,7 @@ export default function styles() {
       marginBottom: "8px",
       paddingTop: "5px",
       justifyContent: "space-between",
-      paddingRight: "30px",
+      paddingRight: "17px",
       "&:hover": {
         cursor: "pointer"
       },
@@ -18,7 +18,6 @@ export default function styles() {
     container: provided => ({
       ...provided,
       background: "none !important",
-
       width: "26%",
       height: "53px"
     }),
