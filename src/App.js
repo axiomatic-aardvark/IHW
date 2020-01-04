@@ -19,14 +19,14 @@ function App() {
         >
           <MetalGallery />
         </TrackVisibility>
-        <TrackVisibility
+        {/* <TrackVisibility
           once
           partialVisibility={true}
           offset={-300}
           className="track-visibility"
         >
           <PaintingGallery />
-        </TrackVisibility>
+        </TrackVisibility> */}
         <ContactMe />
       </GlobalState>
     </div>
