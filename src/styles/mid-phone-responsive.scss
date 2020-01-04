@@ -1,56 +1,76 @@
-@media screen and (max-width: 1120px) {
-    body {
+@media screen and (max-width: 800px) {
 
+    body {
         .slick-next {
-            margin-right: -40px !important;
+            margin-right: -55px !important;
+            width: 30px !important;
+            height: 30px !important;
         }
 
         .slick-prev {
-            margin-left: -40px !important;
-
+            margin-left: -55px !important;
+            width: 30px !important;
+            height: 30px !important;
         }
 
-        .veil {
-            width: 100vw !important;
-        }
+        #header {
+            flex-direction: column;
+            align-items: center;
 
-        .slick-dots {
-            display: none !important;
+            ul {
+                padding-left: 2rem;
+            }
+
+            .language-select {
+                margin: 0;
+                margin-left: 40%;
+            }
         }
 
         #metal-gallery {
-
-
-
             .group {
                 img {
-                    margin-top: 45vh !important;
+                    margin-top: 35vh !important;
+                    max-width: 80% !important;
                 }
 
                 &.goblet img {
+                    margin-top: 45vh !important;
+                    max-width: 100% !important;
+                }
+
+                &.oprah img {
                     margin-top: 50vh !important;
                 }
 
                 &.oprah img {
-                    margin-top: 55vh !important;
-                }
-
-                &.oprah img {
-                    margin-top: 55vh !important;
+                    margin-top: 45vh !important;
                 }
             }
 
             .madara container {
-                margin-top: 2vh !important;
+                margin-top: 5vh !important;
 
                 margin: auto;
-                width: 80%;
+                width: 100%;
             }
 
             .girl-apple container {
                 margin: auto;
-                width: 60%;
+                width: 80%;
                 margin-top: 10vh !important;
+            }
+
+            .glasses container,
+            .thinking-girl container,
+            .elchoMetal container {
+                margin: auto;
+                width: 100%;
+                margin-top: 10vh !important;
+
+                img {
+                    max-width: 80% !important;
+                }
             }
 
             .old-hands container {
@@ -68,7 +88,7 @@
             .autoportrait container {
                 margin-top: 10vh !important;
                 margin: auto;
-                width: 80%;
+                width: 100%;
             }
 
             .samba container {
@@ -83,7 +103,7 @@
                 margin: auto;
 
                 img {
-                    max-width: 60% !important;
+                    max-width: 80% !important;
                 }
             }
 
@@ -92,7 +112,7 @@
                 margin: auto;
 
                 img {
-                    max-width: 60% !important;
+                    max-width: 80% !important;
                 }
             }
 
@@ -127,11 +147,11 @@
             }
 
             .embrace container {
-                margin-top: 10vh !important;
+                margin-top: 8vh !important;
                 margin: auto;
 
                 img {
-                    max-width: 28% !important;
+                    max-width: 38% !important;
                 }
             }
 
@@ -140,7 +160,7 @@
                 margin: auto;
 
                 img {
-                    max-width: 38% !important;
+                    max-width: 58% !important;
                 }
             }
 
@@ -149,7 +169,7 @@
                 margin: auto;
 
                 img {
-                    max-width: 38% !important;
+                    max-width: 58% !important;
                 }
             }
 
@@ -189,11 +209,11 @@
             }
 
             .little-angel container {
-                margin-top: 15vh !important;
+                margin-top: 10vh !important;
                 margin: auto;
 
                 img {
-                    max-width: 50% !important;
+                    max-width: 80% !important;
                 }
             }
 
@@ -201,6 +221,19 @@
             .sharp-teeth-fish container {
                 margin-top: 10vh !important;
                 margin: auto;
+
+                img {
+                    max-width: 150% !important;
+                }
+            }
+
+            .hug container {
+                margin-top: 10vh !important;
+                margin: auto;
+
+                img {
+                    max-width: 80% !important;
+                }
             }
 
 
@@ -209,7 +242,7 @@
                 margin: auto;
 
                 img {
-                    max-width: 70% !important;
+                    max-width: 90% !important;
                 }
             }
 
@@ -224,7 +257,7 @@
                 margin: auto;
 
                 img {
-                    max-width: 80% !important;
+                    max-width: 90% !important;
                 }
 
             }
@@ -234,7 +267,7 @@
                 margin: auto;
 
                 img {
-                    max-width: 90% !important;
+                    max-width: 100% !important;
                 }
 
             }
@@ -252,36 +285,14 @@
 
         #contact-me {
             .container {
-
-                img {
-                    width: 400px;
-                }
+                top: 15%;
+                flex-direction: column;
 
                 .box {
-                    width: 350px;
-                    height: 300px;
-
-                    p {
-                        margin: 10px auto;
-                        color: #f4f8fc;
-                        font-size: 24px;
-                        font-family: 'Times New Roman', Times, serif;
-
-                        &.title {
-                            font-size: 40px;
-                            font-family: 'Bad Script', cursive;
-                        }
-
-                        .click {
-                            text-decoration: underline;
-
-                            &:hover {
-                                cursor: pointer;
-                            }
-                        }
-                    }
+                    margin: 0 auto;
                 }
             }
         }
     }
+
 }
