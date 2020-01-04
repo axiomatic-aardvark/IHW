@@ -45,6 +45,7 @@ import crying from "../images/gallery/paintingPictures/crying.JPG";
 import baby from "../images/gallery/paintingPictures/baby.JPG";
 import horo from "../images/gallery/paintingPictures/horo.JPG";
 import redWoman from "../images/gallery/paintingPictures/red-woman.jpg";
+import smokingBlue from "../images/gallery/paintingPictures/smoking-blue.JPG";
 
 export default ({ isVisible }) => {
   const animation = isVisible ? "fade-in visible" : "invisible";
@@ -237,6 +238,13 @@ export default ({ isVisible }) => {
           "red-woman",
           redWoman,
           "Red Woman",
+          isHovered,
+          setIsHovered
+        )}
+         {genOnePicture(
+          "smoking-blue",
+          smokingBlue,
+          "Smoking Blue",
           isHovered,
           setIsHovered
         )}

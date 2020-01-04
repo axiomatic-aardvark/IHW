@@ -62,6 +62,7 @@ import nikulden from "../images/gallery/metalPictures/nikulden.JPG";
 import horseWithBaby from "../images/gallery/metalPictures/horse-with-baby.JPG";
 import inLove from "../images/gallery/metalPictures/in-love.JPG";
 import eyes from "../images/gallery/metalPictures/eyes.jpg";
+import last from "../images/gallery/metalPictures/last.jpg";
 
 export default ({ isVisible }) => {
   const animation = isVisible ? "fade-in visible" : "invisible";
@@ -274,6 +275,7 @@ export default ({ isVisible }) => {
         )}
         {genOnePicture("in-love", inLove, "In Love", isHovered, setIsHovered)}
         {genOnePicture("eyes", eyes, "Eyes", isHovered, setIsHovered)}
+        {genOnePicture("last", last, "Last", isHovered, setIsHovered)}
       </Slider>
     </section>
   );

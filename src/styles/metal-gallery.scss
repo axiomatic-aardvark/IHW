@@ -102,6 +102,12 @@
 
             }
 
+            &.last {
+                img {
+                    max-width: 20%;
+                }
+            }
+
             &.oprah {
                 margin-left: 11vw;
 
