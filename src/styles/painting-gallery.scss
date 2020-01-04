@@ -1,19 +1,15 @@
 .eaten-apple {
     margin-bottom: 5vh !important;
+    margin-left: 12vw !important;
 }
 
 div.colorful-apple {
     margin-bottom: -2.5vh !important;
+    margin-left: 11vw !important;
 
-    img {
-        &:first-of-type {
-            margin-right: 6vw !important;
-            max-width: 40% !important;
-        }
 
-        &:nth-child(2) {
-            max-width: 40% !important;
-        }
+    container img {
+        max-width: 60% !important
     }
 }
 
@@ -67,8 +63,18 @@ div.dark-horse {
 }
 
 
-.pear {
+div.pear {
     margin-top: 2.5vh !important;
+
+    img {
+        max-width: 38% !important;
+    }
+}
+
+div.lips {
+    img {
+        max-width: 35% !important;
+    }
 }
 
 .black-girl-breast {
@@ -84,8 +90,12 @@ div.dark-horse {
 .violin {
     margin-top: -1vh !important;
 
-    img {
-        max-width: 10% !important;
+    container {
+        margin: auto;
+
+        img {
+            max-width: 33% !important;
+        }
     }
 }
 

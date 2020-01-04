@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -45,34 +45,115 @@ import crying from "../images/gallery/paintingPictures/crying.JPG";
 import baby from "../images/gallery/paintingPictures/baby.JPG";
 import horo from "../images/gallery/paintingPictures/horo.JPG";
 import redWoman from "../images/gallery/paintingPictures/red-woman.jpg";
+import { isCompositeComponentWithType } from "react-dom/test-utils";
 
 export default ({ isVisible }) => {
   const animation = isVisible ? "fade-in visible" : "invisible";
+  const [isHovered, setIsHovered] = useState(false);
 
   return (
     <section id="painting-gallery">
       <span className="gallery-title">Paintings</span>
 
       <Slider {...sliderParams} className={`slider ${animation}`}>
-        <div className="group eaten-apple">
-          <img src={eatenApple} alt="eaten-apple"></img>
-          <img src={eatenApple1} alt="eaten-apple1"></img>
-        </div>
-        {genPicture("colorful-apple", colorfulApple, colorfulApple1)}
-        {genOnePicture("red-apple", redApple)}
-        {genOnePicture("many-apples", manyApples)}
-        {genOnePicture("square-apple", squareApple)}
-        {genOnePicture("red-apples", redApples)}
-        {genOnePicture("tomato-apple", tomatoApple)}
-        {genOnePicture("darkblue-apple", darkblueApple)}
-        {genOnePicture("chess-apples", chessApples)}
-        {genOnePicture("half-apples", halfApples)}
-        {genOnePicture("bitten-apple", bittenApple)}
-        {genOnePicture("blue-and-green", blueAndGreen)}
-        {genOnePicture("frozen-apple", frozenApple)}
-        {genOnePicture("pear", pear)}
-        {genOnePicture("lips", lips)}
-        {genOnePicture("violin", violin)}
+        {genPicture(
+          "eaten-apple",
+          eatenApple,
+          eatenApple1,
+          "Eaten Apple",
+          isHovered,
+          setIsHovered
+        )}
+        {genPicture(
+          "colorful-apple",
+          colorfulApple,
+          colorfulApple1,
+          "Colorful Apple",
+          isHovered,
+          setIsHovered
+        )}
+        {genOnePicture(
+          "red-apple",
+          redApple,
+          "Red Apple",
+          isHovered,
+          setIsHovered
+        )}
+        {genOnePicture(
+          "many-apples",
+          manyApples,
+          "Many Apples",
+          isHovered,
+          setIsHovered
+        )}
+        {genOnePicture(
+          "square-apple",
+          squareApple,
+          "Square Apple",
+          isHovered,
+          setIsHovered
+        )}
+        {genOnePicture(
+          "red-apples",
+          redApples,
+          "Red Apples",
+          isHovered,
+          setIsHovered
+        )}
+        {genOnePicture(
+          "tomato-apple",
+          tomatoApple,
+          "Tomato Apple",
+          isHovered,
+          setIsHovered
+        )}
+        {genOnePicture(
+          "darkblue-apple",
+          darkblueApple,
+          "Darkblue Apple",
+          isHovered,
+          setIsHovered
+        )}
+        {genOnePicture(
+          "chess-apples",
+          chessApples,
+          "Chess Apples",
+          isHovered,
+          setIsHovered
+        )}
+        {genOnePicture(
+          "half-apples",
+          halfApples,
+          "Half Apples",
+          isHovered,
+          setIsHovered
+        )}
+        {genOnePicture(
+          "bitten-apple",
+          bittenApple,
+          "Bitten Apple",
+          isHovered,
+          setIsHovered
+        )}
+        {genOnePicture(
+          "blue-and-green",
+          blueAndGreen,
+          "Blue and Green",
+          isHovered,
+          setIsHovered
+        )}
+        {genOnePicture(
+          "frozen-apple",
+          frozenApple,
+          "Frozen Apple",
+          isHovered,
+          setIsHovered
+        )}
+        {genOnePicture("pear", pear, "Pear", isHovered, setIsHovered)}
+        {genOnePicture("lips", lips, "Lips", isHovered, setIsHovered)}
+        {genOnePicture("violin", violin, "Violin", isHovered, setIsHovered)}
+
+        {/* 
         {genOnePicture("elcho", elcho)}
         {genOnePicture("bun", bun)}
         {genOnePicture("naked-girl-painting", nakedGirlPainting)}
@@ -94,7 +175,7 @@ export default ({ isVisible }) => {
         {genOnePicture("crying", crying)}
         {genOnePicture("baby", baby)}
         {genOnePicture("horo", horo)}
-        {genOnePicture("red-woman", redWoman)}
+        {genOnePicture("red-woman", redWoman)} */}
       </Slider>
     </section>
   );
