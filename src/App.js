@@ -43,14 +43,14 @@ export default class App extends React.Component {
           >
             <MetalGallery width={this.state.width} />
           </TrackVisibility>
-          {/* <TrackVisibility
+          <TrackVisibility
             once
             partialVisibility={true}
             offset={-300}
             className="track-visibility"
           >
             <PaintingGallery />
-          </TrackVisibility> */}
+          </TrackVisibility>
           <ContactMe />
         </GlobalState>
       </div>
