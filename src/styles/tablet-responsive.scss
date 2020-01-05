@@ -250,6 +250,141 @@
             }
         }
 
+        #painting-gallery {
+            .group {
+                margin-top: 160vh !important;
+
+                container {
+                    img {
+                        max-width: 80% !important;
+                    }
+
+
+                }
+
+                &.pear,
+                &.lips {
+                    container {
+                        img {
+                            max-width: 65% !important;
+                        }
+                    }
+                }
+
+                &.violin {
+                    margin-top: 145vh !important;
+
+                    container {
+                        img {
+                            max-width: 25% !important;
+                        }
+                    }
+                }
+
+
+                &.elcho, &.bun, &.naked-girl-painting, &.naked-girl-skirt {
+                    margin-top: 140vh !important;
+                    container {
+                        img {
+                            max-width: 70% !important;
+                        }
+                    }
+                }
+
+                &.underwear {
+                    margin-top: 104vh !important;
+
+                    container {
+                        img {
+                            max-width: 30% !important;
+                        }
+                    }
+                }
+
+                &.naked-girl-skirt, &.sleeping {
+                    margin-top: 110vh !important;
+                    container {
+                        img {
+                            max-width: 90% !important;
+                        }
+                    }
+                }
+
+                &.black-girl-breast {
+                    margin-top: 100vh !important;
+                    container {
+                        img {
+                            max-width: 80% !important;
+                        }
+                    }
+                }
+
+                &.naked-girl-blanket {
+                    margin-top: 110vh !important;
+                    container {
+                        img {
+                            max-width: 80% !important;
+                        }
+                    }
+                }
+
+                &.sleeping, &.stretch, &.smoking-red {
+                    margin-top: 100vh !important;
+                    container {
+                        img {
+                            max-width: 80% !important;
+                        }
+                    }
+                }
+
+                &.girl-horse, &.piano, &.dark-horse {
+                    margin-top: 108vh !important;
+                    container {
+                        img {
+                            max-width: 85% !important;
+                        }
+                    }
+                }
+
+                &.smoking-red, &.cat, &.afro-girl, &.ship {
+                    margin-top: 100vh !important;
+                    container {
+                        img {
+                            max-width: 70% !important;
+                        }
+                    }
+                }
+
+                &.ship, &.baby, &.horo, &.red-woman {
+                    margin-top: 110vh !important;
+                    container {
+                        img {
+                            max-width: 80% !important;
+                        }
+                    }
+                }
+
+                &.pink, &.yinyang, &.crying {
+                    margin-top: 100vh !important;
+                    container {
+                        img {
+                            max-width: 70% !important;
+                        }
+                    }
+                }
+
+                &.red-woman {
+                    margin-top: 90vh !important;
+                    container {
+                        img {
+                            max-width: 50% !important;
+                        }
+                    }
+                }
+
+            }
+        }
+
         #contact-me {
             .container {
 
