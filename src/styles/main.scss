@@ -1,14 +1,13 @@
 @import "header.scss";
 @import "home.scss";
 @import "metal-gallery.scss";
+@import "mobile-metal-gallery.scss";
 @import "painting-gallery.scss";
 @import "contact-me.scss";
 @import "animations.scss";
 @import "tablet-responsive.scss";
 @import "mid-phone-responsive.scss";
 @import "small-phone-responsive.scss";
-
-
 body {
     padding: 0;
     margin: 0;
@@ -16,7 +15,6 @@ body {
     overflow-x: hidden;
 
     section {
-        height: 100vh;
 
         .veil {
             position: absolute;

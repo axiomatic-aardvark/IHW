@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import MobileMetalGallery from "./MobileMetalGallery";
 import Slider from "react-slick";
 import sliderParams from "../helpers/sliderParams";
 import genPicture from "../helpers/genPicture";
@@ -72,7 +73,7 @@ export default ({ isVisible, width }) => {
 
   console.log(isHovered);
 
-  return (
+  return width > 1119 ? (
     <section id="metal-gallery">
       <span className="gallery-title">Metal Art</span>
       <Slider {...sliderParams} className={`slider ${animation}`}>
@@ -198,8 +199,7 @@ export default ({ isVisible, width }) => {
           setIsHovered,
           width
         )}
-        {genOnePicture("angel", angel, "Angel", isHovered, setIsHovered,
-          width)}
+        {genOnePicture("angel", angel, "Angel", isHovered, setIsHovered, width)}
         {genPicture(
           "naked-girl",
           nakedGirl,
@@ -243,8 +243,15 @@ export default ({ isVisible, width }) => {
           setIsHovered,
           width
         )}
-        {genOnePicture("horse", horse, "Horse", isHovered, setIsHovered, width,
-          width)}
+        {genOnePicture(
+          "horse",
+          horse,
+          "Horse",
+          isHovered,
+          setIsHovered,
+          width,
+          width
+        )}
         {genPicture(
           "perspective",
           perspective,
@@ -254,8 +261,14 @@ export default ({ isVisible, width }) => {
           setIsHovered,
           width
         )}
-        {genOnePicture("embrace", embrace, "Embrace", isHovered, setIsHovered,
-          width)}
+        {genOnePicture(
+          "embrace",
+          embrace,
+          "Embrace",
+          isHovered,
+          setIsHovered,
+          width
+        )}
         {genOnePicture(
           "two-faces",
           twoFaces,
@@ -273,8 +286,7 @@ export default ({ isVisible, width }) => {
           setIsHovered,
           width
         )}
-        {genOnePicture("hope", hope, "Hope", isHovered, setIsHovered,
-          width)}
+        {genOnePicture("hope", hope, "Hope", isHovered, setIsHovered, width)}
         {genOnePicture(
           "hope-inverted",
           hopeInverted,
@@ -302,8 +314,7 @@ export default ({ isVisible, width }) => {
           width
         )}
 
-        {genOnePicture("lady", lady, "Lady", isHovered, setIsHovered,
-          width)}
+        {genOnePicture("lady", lady, "Lady", isHovered, setIsHovered, width)}
         {genOnePicture(
           "little-angel",
           littleAngel,
@@ -337,13 +348,19 @@ export default ({ isVisible, width }) => {
           setIsHovered,
           width
         )}
-        {genOnePicture("in-love", inLove, "In Love", isHovered, setIsHovered,
-          width)}
-        {genOnePicture("eyes", eyes, "Eyes", isHovered, setIsHovered,
-          width)}
-        {genOnePicture("last", last, "Last", isHovered, setIsHovered,
-          width)}
+        {genOnePicture(
+          "in-love",
+          inLove,
+          "In Love",
+          isHovered,
+          setIsHovered,
+          width
+        )}
+        {genOnePicture("eyes", eyes, "Eyes", isHovered, setIsHovered, width)}
+        {genOnePicture("last", last, "Last", isHovered, setIsHovered, width)}
       </Slider>
     </section>
+  ) : (
+    <MobileMetalGallery />
   );
 };
