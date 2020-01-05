@@ -34,7 +34,7 @@ export default class App extends React.Component {
     return (
       <div className="app">
         <GlobalState>
-          <Home />
+          <Home width={this.state.width}/>
           <TrackVisibility
             once
             partialVisibility={true}

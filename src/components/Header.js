@@ -30,7 +30,7 @@ const formatLang = lang => (
   </Fragment>
 );
 
-export default function Header() {
+export default function Header({ width }) {
   const globalContext = useContext(GlobalContext);
   const { onChangeLang, language } = globalContext;
 
@@ -45,12 +45,15 @@ export default function Header() {
           </a>
         </li>
         <li>
-          <AnchorLink href="#gallery" draggable="false">
+          <AnchorLink
+            href={width > 1119 ? "#metal-gallery" : "#mobile-metal-gallery"}
+            draggable="false"
+          >
             <span>Gallery</span>
           </AnchorLink>
         </li>
         <li>
-          <AnchorLink href="#more-info" draggable="false">
+          <AnchorLink href="#contact-me" draggable="false">
             <span>Contact Me</span>
           </AnchorLink>
         </li>
