@@ -39,7 +39,7 @@
         }
 
         #metal-gallery .slider .group.horse-with-baby container {
-            margin-top: -2vh !important;
+            margin-top: 4vh !important;
 
             img {
                 max-width: 115% !important;
@@ -313,7 +313,7 @@
         }
 
         .slick-prev {
-            margin-left: -38px !important;
+            margin-left: -58px !important;
             width: 20px !important;
             height: 20px !important;
         }
@@ -626,7 +626,7 @@
 
         #painting-gallery {
             .group {
-                margin-top: 78vh !important;
+                margin-top: 29vh !important;
 
                 container {
                     img {
@@ -634,8 +634,14 @@
                         max-width: 108% !important;
                     }
                 }
-                &.pear{
-                    margin-top: 70vh !important;
+
+                &.eaten-apple,
+                &.colorful-apple {
+                    margin-left: 6vw !important;
+                }
+
+                &.pear {
+                    margin-top: 23vh !important;
 
                     container {
                         img {
@@ -644,28 +650,181 @@
                         }
                     }
                 }
-                &.lips{
-                    margin-top: 65vh !important;
+
+                &.lips {
+                    margin-top: 20vh !important;
 
                     container {
                         img {
                             // margin-left: -7vw !important;
-                            max-width: 110% !important;
+                            max-width: 100% !important;
                         }
                     }
                 }
 
-                // &.violin{
-                //     margin-top: 60vh !important;
+                &.violin {
+                    margin-top: 20vh !important;
 
-                //     container {
-                //         img {
-                //             // margin-left: -7vw !important;
-                //             max-width: 20% !important;
-                //         }
-                //     }
-                // }
+                    container {
+                        img {
+                            // margin-left: -7vw !important;
+                            max-width: 30% !important;
+                        }
+                    }
+                }
 
+                &.elcho,
+                &.bun,
+                &.naked-girl-painting, &.sleeping, &.stretch, &.girl-horse, &.pink {
+                    margin-top: 22vh !important;
+
+                    container {
+                        img {
+                            // margin-left: -7vw !important;
+                            max-width: 90% !important;
+                        }
+                    }
+
+                }
+
+                &.pink, &.yinyang, &.crying, &.baby {
+                    margin-top: 26vh !important;
+
+                    container {
+                        img {
+                            // margin-left: -7vw !important;
+                            max-width: 100% !important;
+                        }
+                    }
+
+                }
+
+                &.girl-horse, &.piano, &.dark-horse {
+                    margin-top: 28vh !important;
+
+                    container {
+                        img {
+                            // margin-left: -7vw !important;
+                            max-width: 102% !important;
+                        }
+                    }
+
+                }
+
+                &.naked-girl-painting {
+                    margin-top: 21vh !important;
+
+                    container {
+                        img {
+                            // margin-left: -7vw !important;
+                            max-width: 90% !important;
+                        }
+                    }
+                }
+
+                &.underwear {
+                    margin-top: 18.5vh !important;
+
+                    container {
+                        img {
+                            // margin-left: -7vw !important;
+                            max-width: 50% !important;
+                        }
+                    }
+                }
+                &.naked-girl-skirt {
+                    margin-top: 29vh !important;
+
+                    container {
+                        img {
+                            // margin-left: -7vw !important;
+                            max-width: 105% !important;
+                        }
+                    }
+                }
+
+                &.smoking-red, &.cat, &.afro-girl {
+                    margin-top: 22vh !important;
+
+                    container {
+                        img {
+                            // margin-left: -7vw !important;
+                            max-width: 90% !important;
+                        }
+                    }
+                }
+
+                &.horo {
+                    margin-top: 30vh !important;
+
+                    container {
+                        img {
+                            // margin-left: -7vw !important;
+                            max-width: 102% !important;
+                        }
+                    }
+
+                }
+
+
+                &.red-woman {
+                    margin-top: 22vh !important;
+
+                    container {
+                        img {
+                            // margin-left: -7vw !important;
+                            max-width: 80% !important;
+                        }
+                    }
+
+                }
+
+                &.afro-girl, &.ship {
+                    margin-top: vh !important;
+
+                    container {
+                        img {
+                            // margin-left: -7vw !important;
+                            max-width: 100% !important;
+                        }
+                    }
+                }
+
+                &.ship {
+                    margin-top: 27vh !important;
+
+                    container {
+                        img {
+                            // margin-left: -7vw !important;
+                            max-width: 105% !important;
+                        }
+                    }
+                }
+
+                &.black-girl-breast {
+                    margin-top: 19.5vh !important;
+
+                    container {
+                        img {
+                            // margin-left: -7vw !important;
+                            max-width: 105% !important;
+                        }
+                    }
+                }
+                &.naked-girl-blanket {
+                    margin-top: 24.5vh !important;
+
+                    container {
+                        img {
+                            // margin-left: -7vw !important;
+                            max-width: 105% !important;
+                        }
+                    }
+                }
+
+                &.smoking-blue {
+                    margin-top: 20vh !important;
+                }
             }
         }
 
