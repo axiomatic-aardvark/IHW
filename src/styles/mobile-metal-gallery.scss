@@ -1,4 +1,4 @@
-#mobile-metal-galleryS{
+#mobile-metal-gallery{
     background-color: #f4f8fc;
     display: flex;
     flex-direction: column;
@@ -13,4 +13,8 @@
     .styles_wrapper__1kG3C{
         padding-top:150px;
     }
+
+     figure > div > img {
+         opacity: 1 !important;
+     }
 }

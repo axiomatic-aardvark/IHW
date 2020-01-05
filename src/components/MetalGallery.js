@@ -81,7 +81,7 @@ export default ({ isVisible, width }) => {
           "bird",
           bird,
           bird1,
-          "Birdman",
+          "",
           isHovered,
           setIsHovered,
           width
@@ -90,7 +90,7 @@ export default ({ isVisible, width }) => {
           "girl",
           girl,
           girl1,
-          "Girl",
+          "",
           isHovered,
           setIsHovered,
           width
@@ -99,7 +99,7 @@ export default ({ isVisible, width }) => {
           "roses",
           roses,
           roses1,
-          "Roses",
+          "",
           isHovered,
           setIsHovered,
           width
@@ -108,7 +108,7 @@ export default ({ isVisible, width }) => {
           "goblet",
           goblet,
           goblet1,
-          "Goblet",
+          "Gebet, Opfer, Magie, Leben (2017)",
           isHovered,
           setIsHovered,
           width
@@ -117,7 +117,7 @@ export default ({ isVisible, width }) => {
           "oprah",
           oprah1,
           oprah,
-          "Oprah",
+          "",
           isHovered,
           setIsHovered,
           width
@@ -126,7 +126,7 @@ export default ({ isVisible, width }) => {
           "glasses",
           glasses,
           glasses1,
-          "Glasses",
+          "",
           isHovered,
           setIsHovered,
           width
@@ -135,7 +135,7 @@ export default ({ isVisible, width }) => {
           "thinking-girl",
           thinkingGirl,
           thinkingGirl1,
-          "Thinking girl",
+          "L'artiste (2013)",
           isHovered,
           setIsHovered,
           width
@@ -144,7 +144,7 @@ export default ({ isVisible, width }) => {
           "elchoMetal",
           elchoMetal,
           elcho1,
-          "Elcho Metal",
+          "Fathers Hands (2013)",
           isHovered,
           setIsHovered,
           width
@@ -154,7 +154,7 @@ export default ({ isVisible, width }) => {
           "madara",
           madara,
           madara1,
-          "Madara",
+          "",
           isHovered,
           setIsHovered,
           width
@@ -164,7 +164,7 @@ export default ({ isVisible, width }) => {
           "girl-apple",
           girlApple,
           girlApple1,
-          "Girl Apple",
+          "",
           isHovered,
           setIsHovered,
           width
@@ -174,7 +174,7 @@ export default ({ isVisible, width }) => {
           "old-woman",
           oldWoman,
           oldWoman1,
-          "Old Woman",
+          "",
           isHovered,
           setIsHovered,
           width
@@ -184,7 +184,7 @@ export default ({ isVisible, width }) => {
           "old-hands",
           oldHands,
           oldHands1,
-          "Old Hands",
+          "Memory Of My Grandmother (2014)",
           isHovered,
           setIsHovered,
           width
@@ -194,7 +194,7 @@ export default ({ isVisible, width }) => {
           "samba",
           samba,
           samba1,
-          "Samba",
+          "Samba (2013)",
           isHovered,
           setIsHovered,
           width
@@ -204,7 +204,7 @@ export default ({ isVisible, width }) => {
           "naked-girl",
           nakedGirl,
           nakedGirl1,
-          "Naked Girl",
+          "Model 23 (2013)",
           isHovered,
           setIsHovered,
           width
@@ -212,7 +212,7 @@ export default ({ isVisible, width }) => {
         {genOnePicture(
           "eye-with-hand",
           eyeWithHand,
-          "Eye with hand",
+          "Praying (2013)",
           isHovered,
           setIsHovered,
           width
@@ -221,7 +221,7 @@ export default ({ isVisible, width }) => {
           "autoportrait",
           autoportrait,
           autoportrait1,
-          "Autoportrait",
+          "Pierrot (2013)",
           isHovered,
           setIsHovered,
           width
@@ -230,7 +230,7 @@ export default ({ isVisible, width }) => {
           "stones",
           stones,
           stones1,
-          "Stones",
+          "Live Stones (2014)",
           isHovered,
           setIsHovered,
           width
@@ -238,7 +238,7 @@ export default ({ isVisible, width }) => {
         {genOnePicture(
           "violinMetal",
           violinMetal,
-          "Violin",
+          "",
           isHovered,
           setIsHovered,
           width
@@ -246,7 +246,7 @@ export default ({ isVisible, width }) => {
         {genOnePicture(
           "horse",
           horse,
-          "Horse",
+          "",
           isHovered,
           setIsHovered,
           width,
@@ -256,7 +256,7 @@ export default ({ isVisible, width }) => {
           "perspective",
           perspective,
           perspective1,
-          "perspective",
+          "",
           isHovered,
           setIsHovered,
           width
@@ -264,7 +264,7 @@ export default ({ isVisible, width }) => {
         {genOnePicture(
           "embrace",
           embrace,
-          "Embrace",
+          "",
           isHovered,
           setIsHovered,
           width
@@ -272,7 +272,7 @@ export default ({ isVisible, width }) => {
         {genOnePicture(
           "two-faces",
           twoFaces,
-          "Two Faces",
+          "Quasimodos Love (2013)",
           isHovered,
           setIsHovered,
           width
@@ -281,7 +281,7 @@ export default ({ isVisible, width }) => {
           "split-face",
           splitFace,
           splitFace1,
-          "split face",
+          "Beauty (2013)",
           isHovered,
           setIsHovered,
           width
@@ -290,7 +290,7 @@ export default ({ isVisible, width }) => {
         {genOnePicture(
           "hope-inverted",
           hopeInverted,
-          "Hope Inverted",
+          "Hope (2013)",
           isHovered,
           setIsHovered,
           width
@@ -299,7 +299,7 @@ export default ({ isVisible, width }) => {
           "woman-and-man",
           womanAndMan,
           womanAndMan1,
-          "Woman and Man",
+          "",
           isHovered,
           setIsHovered,
           width
@@ -308,7 +308,7 @@ export default ({ isVisible, width }) => {
           "three-horses",
           threeHorses,
           threeHorses1,
-          "Three Horses",
+          "",
           isHovered,
           setIsHovered,
           width
@@ -318,7 +318,7 @@ export default ({ isVisible, width }) => {
         {genOnePicture(
           "little-angel",
           littleAngel,
-          "Little Angel",
+          "Angel (2014)",
           isHovered,
           setIsHovered,
           width
@@ -327,7 +327,7 @@ export default ({ isVisible, width }) => {
         {genOnePicture(
           "sharp-teeth-fish",
           sharpTeethFish,
-          "Sharp Teeth Fish",
+          "",
           isHovered,
           setIsHovered,
           width
@@ -335,7 +335,7 @@ export default ({ isVisible, width }) => {
         {genOnePicture(
           "nikulden",
           nikulden,
-          "Nikulden",
+          "Evharistia (2014)",
           isHovered,
           setIsHovered,
           width
@@ -343,7 +343,7 @@ export default ({ isVisible, width }) => {
         {genOnePicture(
           "horse-with-baby",
           horseWithBaby,
-          "Horse With Baby",
+          "Metal Expression (2014)",
           isHovered,
           setIsHovered,
           width
@@ -351,13 +351,13 @@ export default ({ isVisible, width }) => {
         {genOnePicture(
           "in-love",
           inLove,
-          "In Love",
+          "In Love (2013)",
           isHovered,
           setIsHovered,
           width
         )}
-        {genOnePicture("eyes", eyes, "Eyes", isHovered, setIsHovered, width)}
-        {genOnePicture("last", last, "Last", isHovered, setIsHovered, width)}
+        {genOnePicture("eyes", eyes, "", isHovered, setIsHovered, width)}
+        {genOnePicture("last", last, "", isHovered, setIsHovered, width)}
       </Slider>
     </section>
   ) : (

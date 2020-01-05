@@ -118,7 +118,7 @@ export default ({ isVisible }) => {
     },
     {
       url: oldHands,
-      title: "Memory of my grandmother (2014)",
+      title: "Memory Of My Grandmother (2014)",
       thumbUrl: oldHands
     },
     {
@@ -177,7 +177,7 @@ export default ({ isVisible }) => {
     },
     {
       url: splitFace,
-      title: "",
+      title: "Beauty (2013)",
       thumbUrl: splitFace
     },
     {
