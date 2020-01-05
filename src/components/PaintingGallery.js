@@ -46,13 +46,15 @@ import baby from "../images/gallery/paintingPictures/baby-compressed.jpeg";
 import horo from "../images/gallery/paintingPictures/horo-compressed.jpeg";
 import redWoman from "../images/gallery/paintingPictures/red-woman-compressed.jpg";
 import smokingBlue from "../images/gallery/paintingPictures/smoking-blue-compressed.jpeg";
+import MobilePaintingGallery from "./MobilePaintingGallery";
 
 export default ({ isVisible, width }) => {
   const animation = isVisible ? "fade-in visible" : "invisible";
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <section id="painting-gallery">
+    width > 1119 ? 
+    (<section id="painting-gallery">
       <span className="gallery-title">Paintings</span>
 
       <Slider {...sliderParams} className={`slider ${animation}`}>
@@ -60,7 +62,7 @@ export default ({ isVisible, width }) => {
           "eaten-apple",
           eatenApple,
           eatenApple1,
-          "Eaten Apple",
+          `Project "Apple" (2015)`,
           isHovered,
           setIsHovered, width
         )}
@@ -68,187 +70,187 @@ export default ({ isVisible, width }) => {
           "colorful-apple",
           colorfulApple,
           colorfulApple1,
-          "Colorful Apple",
+          `Project "Apple" (2015)`,
           isHovered,
           setIsHovered, width
         )}
         {genOnePicture(
           "red-apple",
           redApple,
-          "Red Apple",
+          `Project "Apple" (2015)`,
           isHovered,
           setIsHovered, width
         )}
         {genOnePicture(
           "many-apples",
           manyApples,
-          "Many Apples",
+          `Project "Apple" (2015)`,
           isHovered,
           setIsHovered, width
         )}
         {genOnePicture(
           "square-apple",
           squareApple,
-          "Square Apple",
+          `Project "Apple" (2015)`,
           isHovered,
           setIsHovered, width
         )}
         {genOnePicture(
           "red-apples",
           redApples,
-          "Red Apples",
+          `Project "Apple" (2015)`,
           isHovered,
           setIsHovered, width
         )}
         {genOnePicture(
           "tomato-apple",
           tomatoApple,
-          "Tomato Apple",
+          `Project "Apple" (2015)`,
           isHovered,
           setIsHovered, width
         )}
         {genOnePicture(
           "darkblue-apple",
           darkblueApple,
-          "Darkblue Apple",
+          `Project "Apple" (2015)`,
           isHovered,
           setIsHovered, width
         )}
         {genOnePicture(
           "chess-apples",
           chessApples,
-          "Chess Apples",
+          `Project "Apple" (2015)`,
           isHovered,
           setIsHovered, width
         )}
         {genOnePicture(
           "half-apples",
           halfApples,
-          "Half Apples",
+          `Project "Apple" (2015)`,
           isHovered,
           setIsHovered, width
         )}
         {genOnePicture(
           "bitten-apple",
           bittenApple,
-          "Bitten Apple",
+          `Project "Apple" (2015)`,
           isHovered,
           setIsHovered, width
         )}
         {genOnePicture(
           "blue-and-green",
           blueAndGreen,
-          "Blue and Green",
+          `Project "Apple" (2015)`,
           isHovered,
           setIsHovered, width
         )}
         {genOnePicture(
           "frozen-apple",
           frozenApple,
-          "Frozen Apple",
+          `Project "Apple" (2015)`,
           isHovered,
           setIsHovered, width
         )}
-        {genOnePicture("pear", pear, "Pear", isHovered, setIsHovered, width)}
-        {genOnePicture("lips", lips, "Lips", isHovered, setIsHovered)}
-        {genOnePicture("violin", violin, "Violin", isHovered, setIsHovered, width)}
-        {genOnePicture("elcho", elcho, "Elcho", isHovered, setIsHovered, width)}
-        {genOnePicture("bun", bun, "Bun", isHovered, setIsHovered, width)}
+        {genOnePicture("pear", pear, "", isHovered, setIsHovered, width)}
+        {genOnePicture("lips", lips, "Freuhmorgens - 4.00h (acril)", isHovered, setIsHovered)}
+        {genOnePicture("violin", violin, "Kleine Nachtmusik (oil)", isHovered, setIsHovered, width)}
+        {genOnePicture("elcho", elcho, "", isHovered, setIsHovered, width)}
+        {genOnePicture("bun", bun, "", isHovered, setIsHovered, width)}
         {genOnePicture(
           "naked-girl-painting",
           nakedGirlPainting,
-          "Naked Girl",
+          "",
           isHovered,
           setIsHovered, width
         )}
         {genOnePicture(
           "underwear",
           underwear,
-          "Underwear",
+          "",
           isHovered,
           setIsHovered, width
         )}
         {genOnePicture(
           "naked-girl-skirt",
           nakedGirlSkirt,
-          "Naked Girl Skirt",
+          "",
           isHovered,
           setIsHovered, width
         )}
         {genOnePicture(
           "black-girl-breast",
           blackGirlBreast,
-          "Black Girl Breast",
+          "",
           isHovered,
           setIsHovered, width
         )}
         {genOnePicture(
           "naked-girl-blanket",
           nakedGirlBlanket,
-          "Blanket",
+          "",
           isHovered,
           setIsHovered, width
         )}
         {genOnePicture(
           "sleeping",
           sleeping,
-          "Sleeping",
+          "",
           isHovered,
           setIsHovered, width
         )}
-        {genOnePicture("stretch", stretch, "Stretch", isHovered, setIsHovered)}
+        {genOnePicture("stretch", stretch, "", isHovered, setIsHovered)}
         {genOnePicture(
           "girl-horse",
           girlHorse,
-          "Girl Horse",
+          "",
           isHovered,
           setIsHovered, width
         )}
 
-        {genOnePicture("piano", piano, "Piano", isHovered, setIsHovered)}
+        {genOnePicture("piano", piano, "", isHovered, setIsHovered)}
         {genOnePicture(
           "dark-horse",
           darkHorse,
-          "Dark Horse",
+          "",
           isHovered,
           setIsHovered, width
         )}
         {genOnePicture(
           "smoking-red",
           smokingRed,
-          "Smoking Red",
+          "",
           isHovered,
           setIsHovered, width
         )}
-        {genOnePicture("cat", cat, "Cat", isHovered, setIsHovered)}
+        {genOnePicture("cat", cat, "", isHovered, setIsHovered)}
         {genOnePicture(
           "afro-girl",
           afroGirl,
-          "Afro Girl",
+          "",
           isHovered,
           setIsHovered, width
         )}
-        {genOnePicture("ship", ship, "Ship", isHovered, setIsHovered, width)}
-        {genOnePicture("pink", pink, "Pink", isHovered, setIsHovered, width)}
-        {genOnePicture("yinyang", yinyang, "Yin-Yang", isHovered, setIsHovered, width)}
-        {genOnePicture("crying", crying, "Crying", isHovered, setIsHovered, width)}
-        {genOnePicture("baby", baby, "Baby", isHovered, setIsHovered, width)}
-        {genOnePicture("horo", horo, "Horo", isHovered, setIsHovered, width)}
+        {genOnePicture("ship", ship, "", isHovered, setIsHovered, width)}
+        {genOnePicture("pink", pink, "", isHovered, setIsHovered, width)}
+        {genOnePicture("yinyang", yinyang, "", isHovered, setIsHovered, width)}
+        {genOnePicture("crying", crying, "", isHovered, setIsHovered, width)}
+        {genOnePicture("baby", baby, "", isHovered, setIsHovered, width)}
+        {genOnePicture("horo", horo, "", isHovered, setIsHovered, width)}
         {genOnePicture(
           "red-woman",
           redWoman,
-          "Red Woman",
+          "",
           isHovered,
           setIsHovered, width
         )}
          {genOnePicture(
           "smoking-blue",
           smokingBlue,
-          "Smoking Blue",
+          "",
           isHovered,
           setIsHovered, width
         )}
       </Slider>
-    </section>
+    </section>) : <MobilePaintingGallery/>
   );
 };

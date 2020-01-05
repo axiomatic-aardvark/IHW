@@ -1,20 +1,21 @@
-#mobile-metal-gallery{
+#mobile-metal-gallery,
+#mobile-paintings-gallery {
     background-color: #f4f8fc;
     display: flex;
     flex-direction: column;
     justify-content: center;
     position: relative;
-    height:auto !important;
+    height: auto !important;
 
-    .gallery-title{
+    .gallery-title {
         color: #f4f8fc;
     }
 
-    .styles_wrapper__1kG3C{
-        padding-top:150px;
+    .styles_wrapper__1kG3C {
+        padding-top: 150px;
     }
 
-     figure > div > img {
-         opacity: 1 !important;
-     }
+    figure>div>img {
+        opacity: 1 !important;
+    }
 }
