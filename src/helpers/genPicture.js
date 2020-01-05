@@ -22,7 +22,11 @@ export default (
           src={details}
           alt={details}
         ></img>
-        <span disabled={true} onMouseEnter={() => setIsHovered(true)}>
+        <span
+          className="piece-title"
+          disabled={true}
+          onMouseEnter={() => setIsHovered(true)}
+        >
           {isHovered ? pieceTitle : ""}
         </span>
       </container>
