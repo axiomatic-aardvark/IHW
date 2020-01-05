@@ -131,7 +131,7 @@
             }
         }
 
-      
+
 
         #metal-gallery .slider .group.angel container {
             margin-top: 2vh !important;
@@ -280,10 +280,11 @@
 
 
         #metal-gallery .slider .group.last container {
-            margin-top:7vh !important;
+            margin-top: 7vh !important;
+
             img {
                 max-width: 50% !important;
-                margin-left:15vw !important; 
+                margin-left: 15vw !important;
             }
         }
 
@@ -301,7 +302,7 @@
 
         #metal-gallery .slider .group.girl-apple container {
             margin-top: 7vh !important;
-            margin-right:-1vw !important;
+            margin-right: -1vw !important;
         }
 
 
@@ -312,7 +313,7 @@
         }
 
         .slick-prev {
-            margin-left: -58px !important;
+            margin-left: -38px !important;
             width: 20px !important;
             height: 20px !important;
         }
@@ -619,6 +620,51 @@
                 img {
                     max-width: 25% !important;
                 }
+
+            }
+        }
+
+        #painting-gallery {
+            .group {
+                margin-top: 78vh !important;
+
+                container {
+                    img {
+                        // margin-left: -7vw !important;
+                        max-width: 108% !important;
+                    }
+                }
+                &.pear{
+                    margin-top: 70vh !important;
+
+                    container {
+                        img {
+                            // margin-left: -7vw !important;
+                            max-width: 110% !important;
+                        }
+                    }
+                }
+                &.lips{
+                    margin-top: 65vh !important;
+
+                    container {
+                        img {
+                            // margin-left: -7vw !important;
+                            max-width: 110% !important;
+                        }
+                    }
+                }
+
+                // &.violin{
+                //     margin-top: 60vh !important;
+
+                //     container {
+                //         img {
+                //             // margin-left: -7vw !important;
+                //             max-width: 20% !important;
+                //         }
+                //     }
+                // }
 
             }
         }
