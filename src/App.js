@@ -49,7 +49,7 @@ export default class App extends React.Component {
             offset={-300}
             className="track-visibility"
           >
-            <PaintingGallery />
+            <PaintingGallery width={this.state.width}/>
           </TrackVisibility>
           <ContactMe />
         </GlobalState>

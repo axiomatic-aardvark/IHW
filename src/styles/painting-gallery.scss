@@ -1,15 +1,17 @@
 .eaten-apple {
-    margin-bottom: 5vh !important;
+    margin-top: 2vh !important;
     margin-left: 12vw !important;
+    container img{
+        max-width:50% !important;
+    }
 }
 
 div.colorful-apple {
-    margin-bottom: -2.5vh !important;
     margin-left: 11vw !important;
-
+    margin-top: 2vh !important;
 
     container img {
-        max-width: 60% !important
+        max-width: 55% !important
     }
 }
 
@@ -68,6 +70,12 @@ div.ship {
 }
 
 div.pink,
+div.smoking-blue {
+    img {
+        max-width: 35% !important;
+    }
+}
+
 div.smoking-blue {
     img {
         max-width: 38% !important;
