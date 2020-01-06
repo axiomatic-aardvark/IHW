@@ -237,18 +237,18 @@ export default ({ isVisible }) => {
       url: cat,
       thumbUrl: cat
     },
-    {
-      url: lady,
-      thumbUrl: lady
-    },
-    {
-      url: littleAngel,
-      thumbUrl: littleAngel
-    },
-    {
-      url: hug,
-      thumbUrl: hug
-    },
+    // {
+    //   url: lady,
+    //   thumbUrl: lady
+    // },
+    // {
+    //   url: littleAngel,
+    //   thumbUrl: littleAngel
+    // },
+    // {
+    //   url: hug,
+    //   thumbUrl: hug
+    // },
     {
       url: afroGirl,
       thumbUrl: afroGirl
