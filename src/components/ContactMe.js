@@ -20,7 +20,7 @@ export default function ContactMe() {
               Click here
             </span>
           </p>
-          <p>Instagram: @ivohristovart</p>
+          <p>Instagram: <span onClick={openLink("https://www.instagram.com/ivohristov.art/?hl=en")} className="click">@ivohristov.art</span></p>
         </div>
       </div>
     </section>
